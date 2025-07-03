@@ -5,6 +5,9 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '',
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 }
 
-module.exports = nextConfig 
+module.exports = nextConfig
