@@ -27,7 +27,7 @@ export default function MapPage() {
             <CardContent className="p-0">
               <div className="aspect-video bg-gray-200 flex items-center justify-center">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46674.89771035394!2d5.1991!3d43.9104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ca0b8b8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sGordes%2C%20France!5e0!3m2!1sen!2sfr!4v1234567890&markers=color:red%7Clabel:V%7C43.9104,5.1991&markers=color:blue%7Clabel:S%7C43.9120,5.2010&markers=color:green%7Clabel:P%7C43.9090,5.1980&markers=color:orange%7Clabel:G%7C43.9110,5.2000"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.607592420321!2d7.103282575936741!3d43.718703371099096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd2a664d2cff9%3A0x23702ed28503b679!2sMaison%20de%20l&#39;Ara!5e0!3m2!1sda!2sit!4v1751541067658!5m2!1sda!2sit"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -37,26 +37,7 @@ export default function MapPage() {
                   title="Villa location in Vence with nearby amenities"
                 ></iframe>
               </div>
-              <div className="p-4 bg-gray-50">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                  <div className="flex items-center space-x-2">
-                    <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                    <span>Villa Location</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                    <span>Supermarket</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                    <span>Pharmacy</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-                    <span>Gas Station</span>
-                  </div>
-                </div>
-              </div>
+              
             </CardContent>
           </Card>
         </section>
