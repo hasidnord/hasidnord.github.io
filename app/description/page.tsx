@@ -85,7 +85,7 @@ export default function DescriptionPage() {
                   "Double garage + parking spaces",
                   "Automatic irrigation system",
                   "Electric gate and video intercom",
-                  "Close to amenities and Gordes village",
+                  "Close to amenities and Vence village",
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-terracotta rounded-full flex-shrink-0"></div>

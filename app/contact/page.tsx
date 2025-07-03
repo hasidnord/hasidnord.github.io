@@ -48,7 +48,7 @@ export default function ContactPage() {
             <div>
               <h2 className="font-playfair text-3xl font-bold text-terracotta mb-6">Our Contact Details</h2>
               <p className="text-lg text-gray-700 mb-8">
-                Marie and Pierre Dubois are available to answer all your questions and arrange visits by appointment.
+                Bent and Iwona Bjerre are available to answer all your questions and arrange visits by appointment.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function ContactPage() {
                     <Phone className="w-6 h-6 text-terracotta" />
                     <div>
                       <h3 className="font-playfair text-lg font-semibold text-gray-800">Phone</h3>
-                      <p className="text-gray-600">+33 4 90 12 34 56</p>
+                      <p className="text-gray-600">+33 6 80 40 91 01</p>
                       <p className="text-sm text-gray-500">Available 7 days a week, 9am to 7pm</p>
                     </div>
                   </div>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                     <Mail className="w-6 h-6 text-terracotta" />
                     <div>
                       <h3 className="font-playfair text-lg font-semibold text-gray-800">Email</h3>
-                      <p className="text-gray-600">marie.pierre@villa-provence.fr</p>
+                      <p className="text-gray-600">info@netsafety.dk</p>
                       <p className="text-sm text-gray-500">Response within 24 hours</p>
                     </div>
                   </div>
@@ -85,8 +85,8 @@ export default function ContactPage() {
                     <MapPin className="w-6 h-6 text-terracotta" />
                     <div>
                       <h3 className="font-playfair text-lg font-semibold text-gray-800">Address</h3>
-                      <p className="text-gray-600">Chemin des Oliviers</p>
-                      <p className="text-gray-600">84220 Gordes, Vaucluse</p>
+                      <p className="text-gray-600">227 Chem. du Baric</p>
+                      <p className="text-gray-600">06140 Vence</p>
                     </div>
                   </div>
                 </CardContent>

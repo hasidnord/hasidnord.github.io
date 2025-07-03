@@ -10,7 +10,7 @@ export default function MapPage() {
         <div className="text-center mb-12">
           <h1 className="font-playfair text-5xl font-bold text-gray-800 mb-4">Location</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the privileged location of our villa in the heart of the Luberon, close to Gordes and all the
+            Discover the privileged location of our villa in the heart of the Provence‑Alpes‑Côte d’Azur, close to Vence and all the
             emblematic sites of Provence
           </p>
         </div>
@@ -21,7 +21,7 @@ export default function MapPage() {
             <CardHeader>
               <CardTitle className="font-playfair text-2xl text-terracotta flex items-center space-x-2">
                 <MapPin className="w-6 h-6" />
-                <span>Chemin des Oliviers, 84220 Gordes</span>
+                <span>227 Chem. du Baric, 06140 Vence</span>
               </CardTitle>
             </CardHeader>
             <CardContent className="p-0">
@@ -34,7 +34,7 @@ export default function MapPage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Villa location in Gordes with nearby amenities"
+                  title="Villa location in Vence with nearby amenities"
                 ></iframe>
               </div>
               <div className="p-4 bg-gray-50">
@@ -86,7 +86,7 @@ export default function MapPage() {
                 <ul className="text-gray-600 space-y-1">
                   <li>Avignon TGV station: 45 min</li>
                   <li>Paris-Avignon: 2h40</li>
-                  <li>Shuttle to Gordes</li>
+                  <li>Shuttle to Vence</li>
                   <li>Car rental available</li>
                 </ul>
               </CardContent>
@@ -121,7 +121,7 @@ export default function MapPage() {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• Gordes supermarket: 5 min</li>
+                  <li>• Vence supermarket: 5 min</li>
                   <li>• Artisan bakery: 3 min</li>
                   <li>• Pharmacy: 5 min</li>
                   <li>• Weekly market: Tuesday</li>
@@ -155,7 +155,7 @@ export default function MapPage() {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• Gordes village: 5 min</li>
+                  <li>• Vence village: 5 min</li>
                   <li>• Sénanque Abbey: 15 min</li>
                   <li>• Roussillon: 20 min</li>
                   <li>• Fontaine-de-Vaucluse: 25 min</li>
@@ -179,7 +179,7 @@ export default function MapPage() {
               <CardContent>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex justify-between">
-                    <span>Gordes (historic center)</span>
+                    <span>Vence (historic center)</span>
                     <span className="text-terracotta font-medium">5 min</span>
                   </li>
                   <li className="flex justify-between">

@@ -111,7 +111,7 @@ export default function HomePage() {
             <div>
               <h2 className="font-playfair text-4xl font-bold text-gray-800 mb-6">Our Story</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                We are Marie and Pierre Dubois, and this magnificent villa has been our refuge for 15 wonderful years.
+                We are Bent and Iwona Bjerre, and this magnificent villa has been our refuge for 15 wonderful years.
                 Every stone, every lavender in the garden tells our love story with Provence.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -120,18 +120,18 @@ export default function HomePage() {
               </p>
               <div className="flex items-center space-x-2 text-terracotta">
                 <Heart className="w-5 h-5" />
-                <span className="font-medium">With all our love, Marie & Pierre</span>
+                <span className="font-medium">With all our love, Bent & Iwona</span>
               </div>
             </div>
             <div
               className="relative cursor-pointer"
               onClick={() =>
-                openViewer("/placeholder.svg?height=400&width=600", "Marie and Pierre Dubois in front of their villa")
+                openViewer("/bentogiwona.jpg?height=400&width=600", "Bent and Iwona Bjerre in front of their villa")
               }
             >
               <Image
-                src="/placeholder.svg?height=400&width=600"
-                alt="Marie and Pierre Dubois in front of their villa"
+                src="/bentogiwona.jpg?height=400&width=600"
+                alt="Bent and Iwona Bjerre in front of their villa"
                 width={600}
                 height={400}
                 className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-300"
@@ -154,7 +154,7 @@ export default function HomePage() {
               <CardContent className="p-6 text-center">
                 <Phone className="w-8 h-8 text-terracotta mx-auto mb-4" />
                 <h3 className="font-playfair text-xl font-semibold mb-2">Phone</h3>
-                <p className="text-gray-600">+33 4 90 12 34 56</p>
+                <p className="text-gray-600">+33 6 80 40 91 01</p>
               </CardContent>
             </Card>
 
@@ -162,7 +162,7 @@ export default function HomePage() {
               <CardContent className="p-6 text-center">
                 <Mail className="w-8 h-8 text-terracotta mx-auto mb-4" />
                 <h3 className="font-playfair text-xl font-semibold mb-2">Email</h3>
-                <p className="text-gray-600">marie.pierre@villa-provence.fr</p>
+                <p className="text-gray-600">info@netsafety.dk</p>
               </CardContent>
             </Card>
 
@@ -170,7 +170,7 @@ export default function HomePage() {
               <CardContent className="p-6 text-center">
                 <MapPin className="w-8 h-8 text-terracotta mx-auto mb-4" />
                 <h3 className="font-playfair text-xl font-semibold mb-2">Location</h3>
-                <p className="text-gray-600">Gordes, Vaucluse</p>
+                <p className="text-gray-600">Vence, Provence‑Alpes‑Côte d’Azur</p>
               </CardContent>
             </Card>
           </div>

@@ -123,11 +123,11 @@ export default function Navigation() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 text-gray-600">
                   <Phone className="w-4 h-4 text-terracotta" />
-                  <span className="text-sm">+33 4 90 12 34 56</span>
+                  <span className="text-sm">+33 6 80 40 91 01</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-600">
                   <Mail className="w-4 h-4 text-terracotta" />
-                  <span className="text-sm">marie.pierre@villa-provence.fr</span>
+                  <span className="text-sm">info@netsafety.dk</span>
                 </div>
                 <Link
                   href="/contact"
