@@ -74,7 +74,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="font-playfair text-4xl font-bold text-gray-800 mb-4">A Unique Opportunity</h2>
-            <div className="text-6xl font-playfair font-bold text-terracotta mb-6">€850,000</div>
+            <div className="text-6xl font-playfair font-bold text-terracotta mb-6">€1.498,000</div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Character villa of 180m² living space on a 2,500m² plot with swimming pool and breathtaking views over the
               Provençal hills.
