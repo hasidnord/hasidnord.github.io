@@ -9,6 +9,8 @@ export default function VideoPage() {
   const [viewerOpen, setViewerOpen] = useState(false)
   const [viewerPhotos, setViewerPhotos] = useState<Array<{ src: string; alt: string }>>([])
   const [viewerIndex, setViewerIndex] = useState(0)
+  const [videoModalOpen, setVideoModalOpen] = useState(false)
+  const [videoModalSrc, setVideoModalSrc] = useState<string | null>(null)
 
   const openViewer = (thumbnail: string, title: string) => {
     setViewerPhotos([{ src: thumbnail, alt: title }])
@@ -113,15 +115,15 @@ export default function VideoPage() {
                   className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow rounded-xl cursor-pointer group"
                 >
                   <CardContent className="p-0">
-                    <div className="relative aspect-video overflow-hidden bg-gray-900">
+                    <div className="relative aspect-video overflow-hidden bg-gray-900" onClick={(e) => {
+                      e.stopPropagation()
+                      setVideoModalSrc('/indkørsel.mp4')
+                      setVideoModalOpen(true)
+                    }}>
                       <img
                         src={video.thumbnail || "/placeholder.svg"}
                         alt={video.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 cursor-pointer"
-                        onClick={(e) => {
-                          e.stopPropagation()
-                          openViewer(video.thumbnail, video.title)
-                        }}
                       />
                       <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-300"></div>
                       <div className="absolute inset-0 flex items-center justify-center">
@@ -159,6 +161,25 @@ export default function VideoPage() {
         </div>
       </div>
       <PhotoViewer photos={viewerPhotos} initialIndex={viewerIndex} isOpen={viewerOpen} onClose={closeViewer} />
+
+      {/* Video Modal */}
+      {videoModalOpen && videoModalSrc && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
+          <div className="bg-white rounded-lg shadow-lg p-4 max-w-2xl w-full relative flex flex-col items-center">
+            <button
+              className="absolute top-2 right-2 text-white bg-terracotta hover:bg-terracotta/90 rounded-full w-10 h-10 flex items-center justify-center text-2xl z-20 shadow-lg border-2 border-white focus:outline-none focus:ring-2 focus:ring-terracotta"
+              onClick={() => { setVideoModalOpen(false); setVideoModalSrc(null); }}
+              aria-label="Close video"
+              style={{ transition: 'background 0.2s, color 0.2s' }}
+            >
+              &times;
+            </button>
+            <div className="w-full" style={{ aspectRatio: '16/9' }}>
+              <video src={videoModalSrc} controls autoPlay className="w-full h-full rounded-lg object-contain bg-black" style={{ maxHeight: '70vh' }} />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
