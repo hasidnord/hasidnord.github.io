@@ -29,7 +29,7 @@ export default function VideoPage() {
         {
           title: "Villa Tour - Complete Walkthrough",
           duration: "8:45",
-          thumbnail: "/placeholder.svg?height=300&width=500",
+          thumbnail: "/indkørsel.JPG?height=300&width=500",
           description: "Complete guided tour of the villa and grounds",
         },
         {
