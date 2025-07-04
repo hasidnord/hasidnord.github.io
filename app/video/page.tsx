@@ -30,12 +30,14 @@ export default function VideoPage() {
           title: "Villa Tour - Complete Walkthrough",
           duration: "8:45",
           thumbnail: "/indkørsel.JPG?height=300&width=500",
+          video: "/indkørsel.mp4",
           description: "Complete guided tour of the villa and grounds",
         },
         {
           title: "Aerial View - Drone Footage",
           duration: "3:20",
           thumbnail: "/placeholder.svg?height=300&width=500",
+          video: "",
           description: "Stunning aerial views of the property and surroundings",
         },
       ],
@@ -47,12 +49,14 @@ export default function VideoPage() {
           title: "Living Areas & Kitchen",
           duration: "4:15",
           thumbnail: "/placeholder.svg?height=300&width=500",
+          video: "",
           description: "Detailed look at the main living spaces",
         },
         {
           title: "Bedrooms & Bathrooms",
           duration: "5:30",
           thumbnail: "/placeholder.svg?height=300&width=500",
+          video: "",
           description: "Tour of all bedrooms and bathroom facilities",
         },
       ],
@@ -64,12 +68,14 @@ export default function VideoPage() {
           title: "Upper Floor Apartments Tour",
           duration: "6:10",
           thumbnail: "/placeholder.svg?height=300&width=500",
+          video: "",
           description: "Complete tour of all three upper floor apartments",
         },
         {
           title: "Apartment Rental Potential",
           duration: "2:45",
           thumbnail: "/placeholder.svg?height=300&width=500",
+          video: "",
           description: "Investment opportunities and rental potential",
         },
       ],
@@ -81,12 +87,14 @@ export default function VideoPage() {
           title: "Garden & Pool Area",
           duration: "4:50",
           thumbnail: "/placeholder.svg?height=300&width=500",
+          video: "",
           description: "Beautiful Mediterranean garden and swimming pool",
         },
         {
           title: "Sunset Views & Terraces",
           duration: "3:35",
           thumbnail: "/placeholder.svg?height=300&width=500",
+          video: "",
           description: "Breathtaking sunset views from various terraces",
         },
       ],
@@ -117,8 +125,10 @@ export default function VideoPage() {
                   <CardContent className="p-0">
                     <div className="relative aspect-video overflow-hidden bg-gray-900" onClick={(e) => {
                       e.stopPropagation()
-                      setVideoModalSrc('/indkørsel.mp4')
-                      setVideoModalOpen(true)
+                      if (video.video) {
+                        setVideoModalSrc(video.video)
+                        setVideoModalOpen(true)
+                      }
                     }}>
                       <img
                         src={video.thumbnail || "/placeholder.svg"}
