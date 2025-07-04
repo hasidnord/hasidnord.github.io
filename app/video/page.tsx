@@ -28,7 +28,7 @@ export default function VideoPage() {
       videos: [
         {
           title: "Villa Tour - Complete Walkthrough",
-          duration: "8:45",
+          duration: "2:00",
           thumbnail: "/indkørsel.JPG?height=300&width=500",
           video: "/indkørsel.mp4",
           description: "Complete guided tour of the villa and grounds",
