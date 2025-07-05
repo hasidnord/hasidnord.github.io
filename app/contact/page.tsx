@@ -19,7 +19,7 @@ export default function ContactPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Open mail client with prefilled recipient and message
-    const subject = encodeURIComponent("Maison l'Ara Contact Form Message")
+    const subject = encodeURIComponent("Contact Form Message")
     const body = encodeURIComponent(
       `Name: ${formData.name}\nPhone: ${formData.phone}\nMessage: ${formData.message}`
     )
