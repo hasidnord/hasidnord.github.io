@@ -161,7 +161,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       rows={6}
                       className="rounded-lg"
-                      placeholder="Tell us about your project, your questions, or request a visit..."
+                      placeholder="Tell us about your questions, or request a visit..."
                     />
                   </div>
 
