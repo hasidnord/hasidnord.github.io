@@ -10,28 +10,28 @@ export default function GalleryPage() {
     {
       title: "Exterior & Garden",
       images: [
-        { src: "/placeholder.svg?height=400&width=600", alt: "Main facade of the villa" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Mediterranean garden with lavender" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Swimming pool with panoramic view" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Shaded terrace" },
+        { src: "/main_facade.jpg?height=400&width=600", alt: "Main facade of the villa" },
+        { src: "/main_lawn.jpg?height=400&width=600", alt: "Mediterranean garden with flowers" },
+        { src: "/main_swimmingpool.JPG?height=400&width=600", alt: "Swimming pool with panoramic view" },
+        { src: "/main_terrace.jpg?height=400&width=600", alt: "Terrace with electric awning" },
       ],
     },
     {
       title: "Living Areas",
       images: [
-        { src: "/placeholder.svg?height=400&width=600", alt: "Main living room with fireplace" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Provençal dining room" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Equipped kitchen with central island" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Office with garden view" },
+        { src: "/main_livingroom.jpg?height=400&width=600", alt: "Main living room with fireplace" },
+        { src: "/main_hall.jpg?height=400&width=600", alt: "Open layout kitchen and dining room" },
+        { src: "/main_kitchen.jpg?height=400&width=600", alt: "Equipped kitchen" },
+        { src: "/main_office.jpg?height=400&width=600", alt: "Office with garden view" },
       ],
     },
     {
       title: "Bedrooms & Suites",
       images: [
-        { src: "/placeholder.svg?height=400&width=600", alt: "Master suite with private terrace" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Guest bedroom with bathroom" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Bright children's bedroom" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Main bathroom" },
+        { src: "/main_bedroom.jpg?height=400&width=600", alt: "Master suite with walk-in closet" },
+        { src: "/main_guestroom.jpg?height=400&width=600", alt: "Guest bedroom with bathroom" },
+        { src: "/main_toilet.jpg?height=400&width=600", alt: "Main bathroom" },
+        { src: "/main_shower.jpg?height=400&width=600", alt: "Main shower" },
       ],
     },
     {
