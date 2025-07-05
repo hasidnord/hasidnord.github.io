@@ -144,7 +144,7 @@ export default function ContactPage() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="rounded-lg"
-                        placeholder="Your phone number incl.country code"
+                        placeholder="Your number incl.country code"
                       />
                     </div>
                   </div>
