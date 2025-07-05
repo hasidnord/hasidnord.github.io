@@ -12,16 +12,18 @@ import { Phone, Mail, MapPin, Clock, Send } from "lucide-react"
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
     phone: "",
     message: "",
   })
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log("Form submitted:", formData)
-    alert("Thank you for your message! We will contact you shortly.")
+    // Open mail client with prefilled recipient and message
+    const subject = encodeURIComponent("Maison l'Ara Contact Form Message")
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nPhone: ${formData.phone}\nMessage: ${formData.message}`
+    )
+    window.location.href = `mailto:hannesideniusnordentoft@gmail.com?subject=${subject}&body=${body}`
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -145,22 +147,6 @@ export default function ContactPage() {
                         placeholder="Your phone number"
                       />
                     </div>
-                  </div>
-
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email *
-                    </label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      required
-                      value={formData.email}
-                      onChange={handleChange}
-                      className="rounded-lg"
-                      placeholder="your@email.com"
-                    />
                   </div>
 
                   <div>
