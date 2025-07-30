@@ -70,6 +70,15 @@ export default function GalleryPage() {
         { src: "/appC4.jpg?height=400&width=600", alt: "Apartment C bathroom" },
       ],
     },
+    {
+      title: "Driveway and upper terraces",
+      images: [
+        { src: "Top1.jpg", alt: "Top terrace outside apartments A to C" },
+        { src: "", alt: "" },
+        { src: "", alt: "" },
+        { src: "", alt: "" },
+      ],
+    },
   ]
 
   const [viewerOpen, setViewerOpen] = useState(false)
