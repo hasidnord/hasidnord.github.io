@@ -37,10 +37,10 @@ export default function GalleryPage() {
     {
       title: "Views & Panoramas",
       images: [
-        { src: "/placeholder.svg?height=400&width=600", alt: "Panoramic view from the terrace" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Sunset over the hills" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Village of Gordes in the distance" },
-        { src: "/placeholder.svg?height=400&width=600", alt: "Surrounding lavender fields" },
+        { src: "/view1.jpg?height=400&width=600", alt: "Panoramic view from the terrace" },
+        { src: "/view2.jpg?height=400&width=600", alt: "Sunset over the hills" },
+        { src: "/view3.jpg?height=400&width=600", alt: "Village of Gordes in the distance" },
+        { src: "/view4.jpg?height=400&width=600", alt: "Surrounding lavender fields" },
       ],
     },
     {
