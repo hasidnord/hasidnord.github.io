@@ -30,11 +30,29 @@ export default function PlansPage() {
       rooms: ["Living room", "Kitchen", "3 Bedrooms", "Walk-in closet", "2 Bathrooms", "Laundry", "Facilities"],
     },
     {
-      title: "First Floor - Appartments A, B & C",
+      title: "First Floor - Apartments A, B & C",
       description: "Three independent apartments",
       image: "/plan_first_floor_w_ABC.jpg?height=600&width=800",
       area: "85m²",
-      rooms: ["Master suite 25m²", "Bedroom 18m²", "Bedroom 16m²", "Bedroom 14m²", "2 Bathrooms"],
+      rooms: [
+        // Apartment A
+        "<strong>Apartment A:</strong>",
+        "- Living room",
+        "- Kitchen",
+        "- Bedroom",
+        "- Bathroom with shower",
+        // Apartment B
+        "<strong>Apartment B:</strong>",
+        "- Living with open kitchen",
+        "- 1 Bedroom (+ one on second floor)",
+        "- Bathroom",
+        // Apartment C
+        "<strong>Apartment C:</strong>",
+        "- Bedroom/Living room",
+        "- Kitchen",
+        "- Bedroom",
+        "- Bathroom",
+      ],
     },
     {
       title: "Second Floor - Apartment B",
@@ -48,7 +66,7 @@ export default function PlansPage() {
       description: "",
       image: "/plan_basement.jpg?height=600&width=800",
       area: "62m²",
-      rooms: ["Living area 40m²", "Kitchen 15m²", "Bedroom 22m²", "Bathroom", "Terrace 12m²"],
+      rooms: ["2 storage rooms",],
     },    
     {
       title: "Site Plan & Grounds",
@@ -139,10 +157,14 @@ export default function PlansPage() {
                     <h4 className="font-playfair text-lg font-semibold text-gray-800 mb-4">Room Details</h4>
                     <ul className="space-y-2">
                       {plan.rooms.map((room, roomIndex) => (
-                        <li key={roomIndex} className="flex items-center space-x-2">
-                          <div className="w-1.5 h-1.5 bg-terracotta rounded-full flex-shrink-0"></div>
-                          <span className="text-gray-700 text-sm">{room}</span>
-                        </li>
+                        room.startsWith("<strong>") ? (
+                          <li key={roomIndex} className="pt-2 pb-1"><span className="font-bold text-gray-800" dangerouslySetInnerHTML={{ __html: room.replace(/<\/?strong>/g, "") }} /></li>
+                        ) : (
+                          <li key={roomIndex} className="flex items-center space-x-2">
+                            <div className="w-1.5 h-1.5 bg-terracotta rounded-full flex-shrink-0"></div>
+                            <span className="text-gray-700 text-sm">{room.replace(/^- /, "")}</span>
+                          </li>
+                        )
                       ))}
                     </ul>
                   </div>
