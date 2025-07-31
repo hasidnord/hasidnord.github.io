@@ -73,10 +73,10 @@ export default function GalleryPage() {
     {
       title: "Driveway and upper terraces",
       images: [
-        { src: "Top1.jpg", alt: "Top terrace outside apartments A to C" },
-        { src: "", alt: "" },
-        { src: "", alt: "" },
-        { src: "", alt: "" },
+         { src: "/Top1.jpg?height=400&width=600", alt: "Top terrace outside apartments A to C" },
+        { src: "/Top2.jpg?height=400&width=600", alt: "Topterrace with views" },
+        { src: "/Top3.jpg?height=400&width=600", alt: "House seen from driveway" },
+        { src: "/Top4.jpg?height=400&width=600", alt: "Driveway with lots of parking space" },
       ],
     },
   ]
