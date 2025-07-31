@@ -8,7 +8,7 @@ import { useState } from "react"
 export default function GalleryPage() {
   const galleryCategories = [
     {
-      title: "Exterior & Garden",
+      title: "Exterior & Garden, level 1",
       images: [
         { src: "/main_facade.jpg?height=400&width=600", alt: "Main facade of the villa" },
         { src: "/main_lawn.jpg?height=400&width=600", alt: "Mediterranean garden with flowers" },
@@ -17,7 +17,7 @@ export default function GalleryPage() {
       ],
     },
     {
-      title: "Living Areas",
+      title: "Living Areas, level 1",
       images: [
         { src: "/main_livingroom.jpg?height=400&width=600", alt: "Main living room with fireplace" },
         { src: "/main_hall.jpg?height=400&width=600", alt: "Open layout kitchen and dining room" },
@@ -26,7 +26,7 @@ export default function GalleryPage() {
       ],
     },
     {
-      title: "Bedrooms & Suites",
+      title: "Bedrooms & Suites, level 1",
       images: [
         { src: "/main_bedroom.jpg?height=400&width=600", alt: "Master suite with walk-in closet" },
         { src: "/main_guestroom.jpg?height=400&width=600", alt: "Guest bedroom with bathroom" },
@@ -44,7 +44,7 @@ export default function GalleryPage() {
       ],
     },
     {
-      title: "Apartment A",
+      title: "Apartment A, level 2",
       images: [
         { src: "/appA1.jpg?height=400&width=600", alt: "Apartment A living area" },
         { src: "/appA2.jpg?height=400&width=600", alt: "Apartment A living area with fireplace" },
@@ -53,7 +53,7 @@ export default function GalleryPage() {
       ],
     },
     {
-      title: "Apartment B",
+      title: "Apartment B, level 2",
       images: [
         { src: "/appB1.jpg?height=400&width=600", alt: "Apartment B spacious living area" },
         { src: "/appB2.jpg?height=400&width=600", alt: "Apartment B master bedroom" },
@@ -62,7 +62,7 @@ export default function GalleryPage() {
       ],
     },
     {
-      title: "Apartment C",
+      title: "Apartment C, level 2",
       images: [
         { src: "/appC1.jpg?height=400&width=600", alt: "Apartment C living space" },
         { src: "/appC2.jpg?height=400&width=600", alt: "Apartment C kitchen with dining table" },
