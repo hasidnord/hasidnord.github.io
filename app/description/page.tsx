@@ -167,12 +167,12 @@ export default function DescriptionPage() {
               {
                 title: "Ground Floor",
                 rooms: [
-                  "Living room 45m²",
-                  "Equipped kitchen 20m²",
-                  "Bedroom 15m²",
-                  "Bathroom",
-                  "Guest WC",
+                  "Living room",
+                  "Kitchen",
+                  "3 Bedrooms",
+                  "2 Bathrooms",
                   "Laundry room",
+                  "Technic room",
                 ],
               },
               {
