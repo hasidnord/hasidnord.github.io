@@ -72,7 +72,7 @@ The apartment includes two double bedrooms:
 With its own private entrance, this stylish apartment has been thoughtfully renovated to combine comfort with contemporary design. It features elegant travertine floors throughout, sleek lines, and a modern aesthetic.
 The layout includes:
 </desc>`,
-        "A ground-floor double bedroom with an adjoining bathroom",
+        "A double bedroom with an adjoining bathroom",
         "A cosy living area, ideal for relaxed everyday living or short-term stays",
         "A fully equipped kitchen",
       ],
@@ -83,7 +83,15 @@ The layout includes:
       description: "Top floor of apartment B with panoramic views",
       image: "/plan_second_floor.jpg?height=600&width=800",
       area: "55m²",
-      rooms: ["Bedroom", "Bathroom", "Storage"],
+      rooms: [
+        `<desc>
+This upper level of Apartment B offers a private retreat with a spacious bedroom, bathroom with a tub, and ample storage.<br/>
+Large windows provide sweeping views of the surrounding landscape, making it a tranquil and light-filled space.
+</desc>`,
+        "Bedroom",
+        "Bathroom with tub",
+        "Storage",
+      ],
       pdf: "/plan_second_floor.pdf",
     },
     {
@@ -91,7 +99,14 @@ The layout includes:
       description: "",
       image: "/plan_basement.jpg?height=600&width=800",
       area: "62m²",
-      rooms: ["2 storage rooms",],
+      rooms: [
+        `<desc>
+      The property also includes a versatile basement area, ideal for use as a wine cellar, storage space, or both. Naturally cool and well-proportioned, it offers the perfect conditions for storing wine, preserves, or seasonal items, while still leaving ample room for practical household storage.<br/>
+      <br/>
+      Direct access from the main house makes it convenient for everyday use while keeping living areas clutter-free.
+      </desc>`,
+        "2 storage rooms",
+      ],
       pdf: "/plan_basement.pdf",
     },
     {
