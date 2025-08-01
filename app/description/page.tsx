@@ -4,7 +4,7 @@ import { Home, Bed, Bath, Car, Ruler, TreePine } from "lucide-react"
 
 export default function DescriptionPage() {
   const features = [
-    { icon: Home, label: "Living space", value: "180 m²" },
+    { icon: Home, label: "Living space", value: "323 m²" },
     { icon: Bed, label: "Bedrooms", value: "5" },
     { icon: Bath, label: "Bathrooms", value: "3" },
     { icon: Car, label: "Garage", value: "2 cars" },
@@ -59,7 +59,7 @@ export default function DescriptionPage() {
               <h2 className="font-playfair text-3xl font-bold text-terracotta mb-6">General Description</h2>
               <div className="prose prose-lg text-gray-700 space-y-4">
                 <p>
-                  This magnificent Provençal villa of 180m² living space will seduce you with its authentic charm and
+                  This magnificent Provençal villa of 323m² living space will seduce you with its authentic charm and
                   quality features. Built in 1995 and completely renovated in 2018, it perfectly combines Provençal
                   tradition and modern comfort.
                 </p>

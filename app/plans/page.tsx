@@ -54,6 +54,7 @@ export default function PlansPage() {
         "- Bedroom",
         "- Bathroom",
       ],
+      pdf: "/plan_first_floor.pdf",
     },
     {
       title: "Second Floor - Apartment B",
@@ -61,6 +62,7 @@ export default function PlansPage() {
       image: "/plan_second_floor.jpg?height=600&width=800",
       area: "55m²",
       rooms: ["Bedroom", "Bathroom", "Storage"],
+      pdf: "/plan_second_floor.pdf",
     },
     {
       title: "Basement Plan",
@@ -68,13 +70,15 @@ export default function PlansPage() {
       image: "/plan_basement.jpg?height=600&width=800",
       area: "62m²",
       rooms: ["2 storage rooms",],
-    },    
+      pdf: "/plan_basement.pdf",
+    },
     {
       title: "Site Plan & Grounds",
       description: "Complete property layout with garden and pool",
       image: "/placeholder.svg?height=600&width=800",
       area: "2,500m²",
       rooms: ["Swimming pool 12x6m", "Pool house 15m²", "Garage 40m²", "Terraces", "Garden", "Parking"],
+      pdf: "/plan_site.pdf",
     },
   ]
 
@@ -93,7 +97,7 @@ export default function PlansPage() {
           <Card className="text-center shadow-lg rounded-xl">
             <CardContent className="p-6">
               <Home className="w-8 h-8 text-terracotta mx-auto mb-3" />
-              <div className="text-2xl font-playfair font-bold text-gray-800 mb-1">180m²</div>
+              <div className="text-2xl font-playfair font-bold text-gray-800 mb-1">323m²</div>
               <p className="text-sm text-gray-600">Total Living Space</p>
             </CardContent>
           </Card>
