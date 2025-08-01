@@ -28,6 +28,7 @@ export default function PlansPage() {
       image: "/plan_ground_floor.jpg?height=600&width=800",
       area: "95m²",
       rooms: ["Living room", "Kitchen", "3 Bedrooms", "Walk-in closet", "2 Bathrooms", "Laundry", "Facilities"],
+      pdf: "/plan_ground_floor.pdf", // <-- Set your PDF filename here
     },
     {
       title: "First Floor - Apartments A, B & C",
@@ -131,10 +132,17 @@ export default function PlansPage() {
                   </div>
                   <div className="mt-4 md:mt-0 text-right">
                     <div className="text-2xl font-playfair font-bold text-terracotta">{plan.area}</div>
-                    <button className="mt-2 flex items-center space-x-2 text-terracotta hover:text-terracotta/80 transition-colors">
-                      <Download className="w-4 h-4" />
-                      <span className="text-sm">Download PDF</span>
-                    </button>
+                    {plan.pdf ? (
+                      <a href={plan.pdf} download className="mt-2 flex items-center space-x-2 text-terracotta hover:text-terracotta/80 transition-colors">
+                        <Download className="w-4 h-4" />
+                        <span className="text-sm">Download PDF</span>
+                      </a>
+                    ) : (
+                      <button className="mt-2 flex items-center space-x-2 text-terracotta hover:text-terracotta/80 transition-colors" disabled>
+                        <Download className="w-4 h-4" />
+                        <span className="text-sm">Download PDF</span>
+                      </button>
+                    )}
                   </div>
                 </div>
               </CardHeader>
