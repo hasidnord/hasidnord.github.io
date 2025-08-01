@@ -48,10 +48,10 @@ Filled with natural light, it offers a versatile layout that includes:
       title: "First Floor - Apartments A, B & C",
       description: "Three independent apartments",
       image: "/plan_first_floor_w_ABC.jpg?height=600&width=800",
-      area: "85m²",
+      area: "60+57+46m²",
       rooms: [
         // Apartment A
-        `<strong>Apartment A:</strong>`,
+        `<strong>Apartment A - 60m²":</strong>`,
         `<desc>
 With its own private entrance—yet easily connectable to the main house—this apartment is ideal for welcoming guests or generating income through seasonal rentals and offers:<br/>
 </desc>`,
@@ -59,7 +59,7 @@ With its own private entrance—yet easily connectable to the main house—this 
         "A fully equipped kitchen with everything needed for comfortable living",
         "A double bedroom with its own en-suite bathroom",
         // Apartment B
-        `<strong>Apartment B:</strong>`,
+        `<strong>Apartment B - 57m² (+ 15 upstairs adding to 72m²):</strong>`,
         `<desc>
 Beautifully renovated with attention to detail, this generous apartment boasts stunning views from the living area, which flows seamlessly into a fully equipped kitchen. There's ample space for a dining area as well as a comfortable lounge.<br/>
 The apartment includes two double bedrooms:
@@ -67,7 +67,7 @@ The apartment includes two double bedrooms:
         "One on the first floor, with an adjacent shower room and WC",
         "Another upstairs, featuring its own en-suite bathroom",
         // Apartment C
-        `<strong>Apartment C:</strong>`,
+        `<strong>Apartment C - 46m²:</strong>`,
         `<desc>
 With its own private entrance, this stylish apartment has been thoughtfully renovated to combine comfort with contemporary design. It features elegant travertine floors throughout, sleek lines, and a modern aesthetic.
 The layout includes:
@@ -82,7 +82,7 @@ The layout includes:
       title: "Second Floor - Apartment B",
       description: "Top floor of apartment B with panoramic views",
       image: "/plan_second_floor.jpg?height=600&width=800",
-      area: "55m²",
+      area: "15m²",
       rooms: [
         `<desc>
 This upper level of Apartment B offers a private retreat with a spacious bedroom, bathroom with a tub, and ample storage.<br/>
@@ -98,7 +98,7 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
       title: "Basement Plan",
       description: "",
       image: "/plan_basement.jpg?height=600&width=800",
-      area: "62m²",
+      area: "42m²",
       rooms: [
         `<desc>
       The property also includes a versatile basement area, ideal for use as a wine cellar, storage space, or both. Naturally cool and well-proportioned, it offers the perfect conditions for storing wine, preserves, or seasonal items, while still leaving ample room for practical household storage.<br/>
