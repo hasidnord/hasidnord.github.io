@@ -211,8 +211,7 @@ export default function DescriptionPage() {
           </div>
 
           {/* Upper Floor Apartments */}
-          <h3 className="font-playfair text-2xl font-bold text-terracotta mb-8 text-center">Upper Floor Apartments</h3>
-
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {

@@ -40,7 +40,7 @@ export default function HomePage() {
 
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">Provençal Villa</h1>
-          <p className="text-xl md:text-2xl mb-8 font-light">An exceptional residence in the heart of Provence with rental income, pool and stunning views</p>
+          <p className="text-xl md:text-2xl mb-8 font-light">An exceptional residence in the heart of Provence with pool and stunning views and posibility for rental income </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               asChild

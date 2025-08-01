@@ -26,8 +26,18 @@ export default function PlansPage() {
       title: "Ground Floor Plan",
       description: "Main living areas, kitchen, guest bedrooms and facilities - With indoor staircase to first floor apartments",
       image: "/plan_ground_floor.jpg?height=600&width=800",
-      area: "95m²",
-      rooms: ["Living room", "Kitchen", "3 Bedrooms", "Walk-in closet", "2 Bathrooms", "Laundry", "Facilities"],
+      area: "141m²",
+      rooms: [
+        // Apartment A
+        "<desc>Main living room with fireplace and direct access to the terrace. Spacious and bright, perfect for family gatherings and relaxation.</desc>",
+        "Living room",
+        "Kitchen",
+        "3 Bedrooms",
+        "Walk-in closet",
+        "2 Bathrooms",
+        "Laundry",
+        "Facilities",
+      ],
       pdf: "/plan_ground_floor.pdf", // <-- Set your PDF filename here
     },
     {
@@ -169,7 +179,9 @@ export default function PlansPage() {
                     <h4 className="font-playfair text-lg font-semibold text-gray-800 mb-4">Room Details</h4>
                     <ul className="space-y-2">
                       {plan.rooms.map((room, roomIndex) => (
-                        room.startsWith("<strong>") ? (
+                        room.startsWith("<desc>") ? (
+                          <li key={roomIndex} className="pb-1"><span className="text-gray-700" dangerouslySetInnerHTML={{ __html: room.replace(/<\/?desc>/g, "") }} /></li>
+                        ) : room.startsWith("<strong>") ? (
                           <li key={roomIndex} className="pt-2 pb-1"><span className="font-bold text-gray-800" dangerouslySetInnerHTML={{ __html: room.replace(/<\/?strong>/g, "") }} /></li>
                         ) : (
                           <li key={roomIndex} className="flex items-center space-x-2">
