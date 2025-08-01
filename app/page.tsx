@@ -189,7 +189,7 @@ export default function HomePage() {
               size="lg"
               className="bg-terracotta hover:bg-terracotta/90 text-white px-8 py-3 rounded-full"
             >
-              <Link href="/contact">Schedule a Visit</Link>
+              <Link href="/contact">Request a Visit</Link>
             </Button>
           </div>
         </div>

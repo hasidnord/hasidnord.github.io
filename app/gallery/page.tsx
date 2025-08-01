@@ -141,7 +141,7 @@ export default function GalleryPage() {
             href="/contact"
             className="inline-flex items-center px-8 py-3 bg-terracotta text-white rounded-full hover:bg-terracotta/90 transition-colors font-medium"
           >
-            Schedule a Visit
+            Request a Visit
           </a>
         </div>
         <PhotoViewer photos={viewerPhotos} initialIndex={viewerIndex} isOpen={viewerOpen} onClose={closeViewer} />
