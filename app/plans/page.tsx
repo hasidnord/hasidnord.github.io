@@ -76,7 +76,7 @@ export default function PlansPage() {
       title: "Site Plan & Grounds",
       description: "Complete property layout with garden and pool",
       image: "/placeholder.svg?height=600&width=800",
-      area: "2,500m²",
+      area: "1,000m²",
       rooms: ["Swimming pool 12x6m", "Pool house 15m²", "Garage 40m²", "Terraces", "Garden", "Parking"],
       pdf: "/plan_site.pdf",
     },
@@ -111,7 +111,7 @@ export default function PlansPage() {
           <Card className="text-center shadow-lg rounded-xl">
             <CardContent className="p-6">
               <Ruler className="w-8 h-8 text-terracotta mx-auto mb-3" />
-              <div className="text-2xl font-playfair font-bold text-gray-800 mb-1">2,500m²</div>
+              <div className="text-2xl font-playfair font-bold text-gray-800 mb-1">1,000m²</div>
               <p className="text-sm text-gray-600">Total Plot Size</p>
             </CardContent>
           </Card>

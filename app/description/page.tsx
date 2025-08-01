@@ -8,7 +8,7 @@ export default function DescriptionPage() {
     { icon: Bed, label: "Bedrooms", value: "5" },
     { icon: Bath, label: "Bathrooms", value: "3" },
     { icon: Car, label: "Garage", value: "2 cars" },
-    { icon: Ruler, label: "Land", value: "2,500 m²" },
+    { icon: Ruler, label: "Land", value: "1,000 m²" },
     { icon: TreePine, label: "Swimming pool", value: "12x6m" },
   ]
 
@@ -68,7 +68,7 @@ export default function DescriptionPage() {
                   dining room, 5 bedrooms including a master suite with private terrace, and 3 bathrooms.
                 </p>
                 <p>
-                  The landscaped grounds of 2,500m² offer numerous relaxation areas: shaded terraces, Mediterranean
+                  The landscaped grounds of 1,000m² offer numerous relaxation areas: shaded terraces, Mediterranean
                   garden with olive trees and lavender, and a superb 12x6m swimming pool with panoramic views.
                 </p>
               </div>

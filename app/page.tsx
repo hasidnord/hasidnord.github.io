@@ -76,7 +76,7 @@ export default function HomePage() {
             <h2 className="font-playfair text-4xl font-bold text-gray-800 mb-4">A Unique Opportunity</h2>
             <div className="text-6xl font-playfair font-bold text-terracotta mb-6">€1.498,000</div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Character villa of 323m² living space on a 2,500m² plot with swimming pool and breathtaking views over the
+              Character villa of 323m² living space on a 1,000m² plot with swimming pool and breathtaking views over the
               Provençal hills.
             </p>
           </div>
@@ -96,7 +96,7 @@ export default function HomePage() {
             </Card>
             <Card className="shadow-lg rounded-xl overflow-hidden">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-playfair font-bold text-terracotta mb-2">2,500m²</div>
+                <div className="text-3xl font-playfair font-bold text-terracotta mb-2">1,000m²</div>
                 <p className="text-gray-600">Landscaped grounds</p>
               </CardContent>
             </Card>
