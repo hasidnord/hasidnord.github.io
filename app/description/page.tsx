@@ -216,7 +216,7 @@ export default function DescriptionPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: "Apartment A - East Wing",
+                title: "Apartment A",
                 rooms: [
                   "Living room",
                   "Kitchen",
@@ -225,7 +225,7 @@ export default function DescriptionPage() {
                 ],
               },
               {
-                title: "Apartment B - West Wing",
+                title: "Apartment B",
                 rooms: [
                   "Living room with open kitchen",
                   "1 bedroom on first floor",
@@ -236,7 +236,7 @@ export default function DescriptionPage() {
                 ],
               },
               {
-                title: "Apartment C - South Wing",
+                title: "Apartment C",
                 rooms: [
                   "Living room",
                   "Kitchen",

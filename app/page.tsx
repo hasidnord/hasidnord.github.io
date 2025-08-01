@@ -40,7 +40,7 @@ export default function HomePage() {
 
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">Provençal Villa</h1>
-          <p className="text-xl md:text-2xl mb-8 font-light">An exceptional residence in the heart of Provence</p>
+          <p className="text-xl md:text-2xl mb-8 font-light">An exceptional residence in the heart of Provence with rental income, pool and stunning views</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               asChild
@@ -111,21 +111,20 @@ export default function HomePage() {
             <div>
               <h2 className="font-playfair text-4xl font-bold text-gray-800 mb-6">Our Story</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                We are Bent and Iwona Bjerre, and this magnificent villa with a nice view over a valley to 
-                the forest has been our refuge for 22 wonderful years.
+                We are Bent and Iwona Bjerre, and this magnificent villa—with its lovely view 
+                over the valley and towards the forest—has been our cherished refuge for 22 wonderful years. 
                 Every stone, every plant in the garden tells our love story with Provence.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                We have created several light and spacious holiday apartments, and We have 
-                recently renovated with aircon and updated kitchens and bathrooms.
-                Our own main living areas is on the ground floor with a beautiful terrace 
-                just outside the kitchen. The house is 
-                centrally yet quietly located in walking distance to restaurants and supermarkets. 
-                There is plenty of flat parking on the property. 
+                We have thoughtfully created several light and spacious holiday apartments, and our own main living space 
+                is located on the ground floor, opening onto a beautiful terrace just outside the kitchen—perfect 
+                for morning coffee or sunset dinners. So whether you're looking for an elegant main residence, 
+                a high-yield rental property, or a flexible combination of both, this villa is sure to exceed 
+                your expectations. The house is centrally yet quietly located in walking distance to restaurants and supermarkets.  
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Today, we wish to pass on this little paradise in Vence, Southern France, to a new family who will appreciate the beauty and
-                serenity of this unique place.
+                Today, we wish to pass on this little paradise in the sought-after location in Vence, Southern France, to a new 
+                family who will appreciate the beauty, calm, and character of this truly special place.
               </p>
               <div className="flex items-center space-x-2 text-terracotta">
                 <Heart className="w-5 h-5" />
