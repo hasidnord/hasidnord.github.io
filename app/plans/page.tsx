@@ -24,7 +24,7 @@ export default function PlansPage() {
   const floorPlans = [
     {
       title: "Ground Floor Plan",
-      description: "Main living areas, kitchen, guest bedrooms and facilities",
+      description: "Main living areas, kitchen, guest bedrooms and facilities - With indoor staircase to first floor apartments",
       image: "/plan_ground_floor.jpg?height=600&width=800",
       area: "95m²",
       rooms: ["Living room", "Kitchen", "3 Bedrooms", "Walk-in closet", "2 Bathrooms", "Laundry", "Facilities"],
@@ -104,8 +104,8 @@ export default function PlansPage() {
           <Card className="text-center shadow-lg rounded-xl">
             <CardContent className="p-6">
               <Building className="w-8 h-8 text-terracotta mx-auto mb-3" />
-              <div className="text-2xl font-playfair font-bold text-gray-800 mb-1">3</div>
-              <p className="text-sm text-gray-600">Independent Apartments</p>
+              <div className="text-2xl font-playfair font-bold text-gray-800 mb-1">7</div>
+              <p className="text-sm text-gray-600">Bedrooms - across ground floor living area and first floor independent apartments</p>
             </CardContent>
           </Card>
           <Card className="text-center shadow-lg rounded-xl">

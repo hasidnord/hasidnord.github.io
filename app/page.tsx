@@ -90,8 +90,8 @@ export default function HomePage() {
             </Card>
             <Card className="shadow-lg rounded-xl overflow-hidden">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-playfair font-bold text-terracotta mb-2">5</div>
-                <p className="text-gray-600">Bedrooms</p>
+                <div className="text-3xl font-playfair font-bold text-terracotta mb-2">7</div>
+                <p className="text-gray-600">Bedrooms across main living area and 3 independent apartments</p>
               </CardContent>
             </Card>
             <Card className="shadow-lg rounded-xl overflow-hidden">
