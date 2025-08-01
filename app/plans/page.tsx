@@ -28,15 +28,19 @@ export default function PlansPage() {
       image: "/plan_ground_floor.jpg?height=600&width=800",
       area: "141m²",
       rooms: [
-        // Apartment A
-        "<desc>Main living room with fireplace and direct access to the terrace. Spacious and bright, perfect for family gatherings and relaxation.</desc>",
-        "Living room",
-        "Kitchen",
-        "3 Bedrooms",
-        "Walk-in closet",
-        "2 Bathrooms",
-        "Laundry",
-        "Facilities",
+        // Main living area 
+        `<desc>
+At the centre of the home is a custom-designed open kitchen, thoughtfully made with locally sourced materials, including a stone sink carved from a nearby quarry. Terracotta flooring runs throughout, adding warmth and an authentic Provençal touch.<br/>
+<br/>
+The living room is a standout feature, with an open fireplace, terracotta tiles, and double doors that lead directly to the terrace.<br/>
+<br/>
+Filled with natural light, it offers a versatile layout that includes:
+</desc>`,
+        "A spacious master bedroom with en-suite shower room and a large dressing area, which could also serve as an additional bedroom",
+        "A generous office, easily adaptable as a double guest room",
+        "Another double bedroom with its own en-suite shower and WC, and direct access to the terrace",
+        "A separate laundry room and utility space",
+        "Indoor staircase to wine cellar and upper floors",
       ],
       pdf: "/plan_ground_floor.pdf", // <-- Set your PDF filename here
     },
