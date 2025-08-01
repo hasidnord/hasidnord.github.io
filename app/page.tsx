@@ -111,11 +111,20 @@ export default function HomePage() {
             <div>
               <h2 className="font-playfair text-4xl font-bold text-gray-800 mb-6">Our Story</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                We are Bent and Iwona Bjerre, and this magnificent villa has been our refuge for 15 wonderful years.
-                Every stone, every lavender in the garden tells our love story with Provence.
+                We are Bent and Iwona Bjerre, and this magnificent villa with a nice view over a valley to 
+                the forest has been our refuge for 22 wonderful years.
+                Every stone, every plant in the garden tells our love story with Provence.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Today, we wish to pass on this little paradise to a new family who will appreciate the beauty and
+                We have created several light and spacious holiday apartments, and We have 
+                recently renovated with aircon and updated kitchens and bathrooms.
+                Our own main living areas is on the ground floor with a beautiful terrace 
+                just outside the kitchen. The house is 
+                centrally yet quietly located in walking distance to restaurants and supermarkets. 
+                There is plenty of flat parking on the property. 
+              </p>
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                Today, we wish to pass on this little paradise in Vence, Southern France, to a new family who will appreciate the beauty and
                 serenity of this unique place.
               </p>
               <div className="flex items-center space-x-2 text-terracotta">

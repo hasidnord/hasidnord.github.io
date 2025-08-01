@@ -10,8 +10,19 @@ export default function MapPage() {
         <div className="text-center mb-12">
           <h1 className="font-playfair text-5xl font-bold text-gray-800 mb-4">Location</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the privileged location of our villa in the heart of the Provence‑Alpes‑Côte d’Azur, close to Vence and all the
-            emblematic sites of Provence
+           Nestled in the hills above the French Riviera, Vence captures the essence of 
+           Provençal charm and Côte d’Azur elegance. With its cobblestone streets, cute squares, and 
+           medieval walls, this vibrant town offers a blend of culture, nature, and authenticity.
+          </p>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-4">
+          Just a 10-minute stroll from your doorstep lies the enchanting historic centre – a lively hub brimming 
+          with artisan boutiques, open-air cafés, and weekly markets. Whether you're sipping a glass of rosé on 
+          a terrace or enjoying a scenic hike in the surrounding hills, Vence offers a lifestyle that is both 
+          refined and relaxed.
+          </p>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-4">
+          Here, you’re not just buying a home – you’re embracing a way of life where the light is golden, the air 
+          is fresh, and the pace is beautifully unhurried.
           </p>
         </div>
 

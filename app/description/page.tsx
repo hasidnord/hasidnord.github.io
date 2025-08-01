@@ -5,20 +5,20 @@ import { Home, Bed, Bath, Car, Ruler, TreePine } from "lucide-react"
 export default function DescriptionPage() {
   const features = [
     { icon: Home, label: "Living space", value: "323 m²" },
-    { icon: Bed, label: "Bedrooms", value: "5" },
-    { icon: Bath, label: "Bathrooms", value: "3" },
-    { icon: Car, label: "Garage", value: "2 cars" },
+    { icon: Bed, label: "Bedrooms", value: "7" },
+    { icon: Bath, label: "Bathrooms", value: "6" },
+    { icon: Car, label: "Parking", value: "4-6 cars" },
     { icon: Ruler, label: "Land", value: "1,000 m²" },
     { icon: TreePine, label: "Swimming pool", value: "12x6m" },
   ]
 
   const technicalDetails = [
-    { label: "Year built", value: "1995" },
-    { label: "Last renovation", value: "2018" },
+    { label: "Year built", value: "1975" },
+    { label: "Last renovation", value: "2024" },
     { label: "Energy rating", value: "C" },
     { label: "GHG emissions", value: "B" },
     { label: "Heating", value: "Heat pump + Fireplace" },
-    { label: "Insulation", value: "Renovated in 2018" },
+    { label: "Insulation", value: "Renovated in 2004" },
   ]
 
   return (
@@ -60,16 +60,15 @@ export default function DescriptionPage() {
               <div className="prose prose-lg text-gray-700 space-y-4">
                 <p>
                   This magnificent Provençal villa of 323m² living space will seduce you with its authentic charm and
-                  quality features. Built in 1995 and completely renovated in 2018, it perfectly combines Provençal
+                  quality features. Built in 1975 and completely renovated in 2004 and again in 2024, it perfectly combines Provençal
                   tradition and modern comfort.
                 </p>
                 <p>
-                  The property consists of a spacious 45m² living room with fireplace, an equipped kitchen open to the
-                  dining room, 5 bedrooms including a master suite with private terrace, and 3 bathrooms.
-                </p>
+                  The property consists of ground floor living areas with spacious living room with fireplace, an equipped kitchen open to the
+                  dining room, 3 bedrooms and 2 bathrooms. On first floor and second floor, with breathtaking views, are 3 holiday apartments, each with own living room, kitchen and bedrooms.               </p>
                 <p>
                   The landscaped grounds of 1,000m² offer numerous relaxation areas: shaded terraces, Mediterranean
-                  garden with olive trees and lavender, and a superb 12x6m swimming pool with panoramic views.
+                  garden with palm trees and bougainville, and a superb 12x6m swimming pool with panoramic views.
                 </p>
               </div>
             </div>
@@ -80,11 +79,10 @@ export default function DescriptionPage() {
                 {[
                   "Breathtaking panoramic views over the hills",
                   "South-facing with exceptional brightness",
-                  "Noble materials: stone, terracotta tiles, exposed beams",
-                  "Heated swimming pool with pool house",
-                  "Double garage + parking spaces",
+                  "Noble materials: stone, terracotta tiles",
+                  "Swimming pool with pool house",
+                  "Garage + parking spaces",
                   "Automatic irrigation system",
-                  "Electric gate and video intercom",
                   "Close to amenities and Vence village",
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center space-x-3">
@@ -134,7 +132,7 @@ export default function DescriptionPage() {
                         Class C
                       </Badge>
                     </div>
-                    <div className="text-sm text-gray-500">145 kWh/m²/year</div>
+                    <div className="text-sm text-gray-500">132 kWh/m²/year</div>
                   </div>
 
                   <div>
@@ -144,12 +142,12 @@ export default function DescriptionPage() {
                         Class B
                       </Badge>
                     </div>
-                    <div className="text-sm text-gray-500">28 kg CO2/m²/year</div>
+                    <div className="text-sm text-gray-500">4 kg CO2/m²/year</div>
                   </div>
 
                   <div className="pt-4 border-t border-gray-100">
                     <p className="text-sm text-gray-600">
-                      Energy assessment carried out in 2023. Thermal insulation redone in 2018.
+                      Energy assessment carried out in 2023. Thermal insulation redone in 2004.
                     </p>
                   </div>
                 </div>
