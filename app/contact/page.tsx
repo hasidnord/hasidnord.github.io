@@ -182,17 +182,19 @@ export default function ContactPage() {
 
             {/* Send More Info Section */}
             <div className="mt-8 p-6 bg-terracotta/5 rounded-xl border border-terracotta/20">
-              <h3 className="font-playfair text-xl font-semibold text-terracotta mb-4 flex items-center">
-                <Mail className="w-5 h-5 mr-2" />
-                Request Additional Information
+              <h3 className="font-playfair text-xl font-semibold text-terracotta mb-4">
+                Download Information flyer
               </h3>
               <p className="text-gray-700 mb-4">
-                Get our complete information package including detailed specifications, investment analysis, and rental
-                potential reports.
+                Get our information flyer including detailed specifications.
               </p>
-              <button className="w-full bg-terracotta hover:bg-terracotta/90 text-white py-3 rounded-lg font-medium transition-colors">
-                Send More Info Package
-              </button>
+              <a
+                href="/lav_brochure.pdf"
+                download
+                className="w-full bg-terracotta hover:bg-terracotta/90 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center text-center"
+              >
+                Download flyer with informations
+              </a>
             </div>
 
             <div className="mt-8 p-6 bg-white rounded-xl shadow-lg">

@@ -195,7 +195,7 @@ export default function DescriptionPage() {
               {
                 title: "Basement",
                 rooms: [
-                  "Storage rooms",
+                  "Wine cellar and storage room",
                 ],
               },
               {
@@ -249,7 +249,7 @@ export default function DescriptionPage() {
                   "1 Bedroom on second flor",
                   "1 Bathroom with shower on first floor",
                   "1 Bathroom with bathtub on second floor",
-                  "Storage room on secnd floor",
+                  "Storage room on second floor",
                 ],
               },
               {
