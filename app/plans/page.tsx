@@ -51,22 +51,37 @@ Filled with natural light, it offers a versatile layout that includes:
       area: "85m²",
       rooms: [
         // Apartment A
-        "<strong>Apartment A:</strong>",
-        "- Living room",
-        "- Kitchen",
-        "- Bedroom",
-        "- Bathroom with shower",
+        `<strong>Apartment A:</strong>`,
+        `<desc>
+Charming apartment with a bright living room and open kitchen.<br/>
+Spacious bedroom and modern bathroom with shower.<br/>
+Ideal for couples or as a guest suite.
+</desc>`,
+        "Living room",
+        "Kitchen",
+        "Bedroom",
+        "Bathroom with shower",
         // Apartment B
-        "<strong>Apartment B:</strong>",
-        "- Living with open kitchen",
-        "- 1 Bedroom (+ one on second floor)",
-        "- Bathroom",
+        `<strong>Apartment B:</strong>`,
+        `<desc>
+Large living area with open kitchen and dining space.<br/>
+One bedroom on the main floor and a second on the upper level.<br/>
+Private bathroom and plenty of storage.
+</desc>`,
+        "Living with open kitchen",
+        "1 Bedroom (+ one on second floor)",
+        "Bathroom",
         // Apartment C
-        "<strong>Apartment C:</strong>",
-        "- Bedroom/Living room",
-        "- Kitchen",
-        "- Bedroom",
-        "- Bathroom",
+        `<strong>Apartment C:</strong>`,
+        `<desc>
+Flexible layout with combined bedroom/living room.<br/>
+Separate kitchen and additional bedroom.<br/>
+Bathroom and access to panoramic terrace.
+</desc>`,
+        "Bedroom/Living room",
+        "Kitchen",
+        "Bedroom",
+        "Bathroom",
       ],
       pdf: "/plan_first_floor.pdf",
     },
@@ -168,7 +183,7 @@ Filled with natural light, it offers a versatile layout that includes:
                 <div className="grid lg:grid-cols-3 gap-0">
                   <div className="lg:col-span-2">
                     <div
-                      className="relative aspect-[4/3] bg-gray-100 cursor-pointer"
+                      className="relative aspect-[4/3] bg-white cursor-pointer"
                       onClick={() => openViewer(plan.image, plan.title)}
                     >
                       <Image
