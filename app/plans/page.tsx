@@ -53,35 +53,28 @@ Filled with natural light, it offers a versatile layout that includes:
         // Apartment A
         `<strong>Apartment A:</strong>`,
         `<desc>
-Charming apartment with a bright living room and open kitchen.<br/>
-Spacious bedroom and modern bathroom with shower.<br/>
-Ideal for couples or as a guest suite.
+With its own private entrance—yet easily connectable to the main house—this apartment is ideal for welcoming guests or generating income through seasonal rentals and offers:<br/>
 </desc>`,
-        "Living room",
-        "Kitchen",
-        "Bedroom",
-        "Bathroom with shower",
+        "A bright and airy living room featuring an open fireplace and uninterrupted views",
+        "A fully equipped kitchen with everything needed for comfortable living",
+        "A double bedroom with its own en-suite bathroom",
         // Apartment B
         `<strong>Apartment B:</strong>`,
         `<desc>
-Large living area with open kitchen and dining space.<br/>
-One bedroom on the main floor and a second on the upper level.<br/>
-Private bathroom and plenty of storage.
+Beautifully renovated with attention to detail, this generous apartment boasts stunning views from the living area, which flows seamlessly into a fully equipped kitchen. There's ample space for a dining area as well as a comfortable lounge.<br/>
+The apartment includes two double bedrooms:
 </desc>`,
-        "Living with open kitchen",
-        "1 Bedroom (+ one on second floor)",
-        "Bathroom",
+        "One on the first floor, with an adjacent shower room and WC",
+        "Another upstairs, featuring its own en-suite bathroom",
         // Apartment C
         `<strong>Apartment C:</strong>`,
         `<desc>
-Flexible layout with combined bedroom/living room.<br/>
-Separate kitchen and additional bedroom.<br/>
-Bathroom and access to panoramic terrace.
+With its own private entrance, this stylish apartment has been thoughtfully renovated to combine comfort with contemporary design. It features elegant travertine floors throughout, sleek lines, and a modern aesthetic.
+The layout includes:
 </desc>`,
-        "Bedroom/Living room",
-        "Kitchen",
-        "Bedroom",
-        "Bathroom",
+        "A ground-floor double bedroom with an adjoining bathroom",
+        "A cosy living area, ideal for relaxed everyday living or short-term stays",
+        "A fully equipped kitchen",
       ],
       pdf: "/plan_first_floor.pdf",
     },
