@@ -63,10 +63,11 @@ export default function MapPage() {
                 <Car className="w-8 h-8 text-terracotta mx-auto mb-4" />
                 <h3 className="font-playfair text-xl font-semibold mb-3">By Car</h3>
                 <ul className="text-gray-600 space-y-1">
-                  <li>Avignon: 45 min</li>
-                  <li>Aix-en-Provence: 1h15</li>
-                  <li>Marseille: 1h30</li>
-                  <li>Lyon: 2h30</li>
+                  <li>Nice city center: 30 min (24 km)</li>
+                  <li>Antibes: 35 min (28 km)</li>
+                  <li>Cannes: 45 min (40 km)</li>
+                  <li>Monaco: 50 min (45 km)</li>
+                  <li>Direct access via A8 motorway (exit 48 Cagnes-sur-Mer)</li>
                 </ul>
               </CardContent>
             </Card>
@@ -74,12 +75,13 @@ export default function MapPage() {
             <Card className="shadow-lg rounded-xl">
               <CardContent className="p-6 text-center">
                 <Train className="w-8 h-8 text-terracotta mx-auto mb-4" />
-                <h3 className="font-playfair text-xl font-semibold mb-3">By Train</h3>
+                <h3 className="font-playfair text-xl font-semibold mb-3">By Public transport</h3>
                 <ul className="text-gray-600 space-y-1">
-                  <li>Avignon TGV station: 45 min</li>
-                  <li>Paris-Avignon: 2h40</li>
-                  <li>Shuttle to Vence</li>
-                  <li>Car rental available</li>
+                  <li>Bus 400 from Nice Airport to Vence: approx. 55 min</li>
+                  <li>Frequent departures, direct connection</li>
+                  <li>Cagnes-sur-Mer SNCF station: 20 min (13 km)</li>
+                  <li>Direct TGV from Paris to Nice: 5h45</li>
+               
                 </ul>
               </CardContent>
             </Card>
@@ -89,10 +91,9 @@ export default function MapPage() {
                 <Plane className="w-8 h-8 text-terracotta mx-auto mb-4" />
                 <h3 className="font-playfair text-xl font-semibold mb-3">By Plane</h3>
                 <ul className="text-gray-600 space-y-1">
-                  <li>Marseille Airport: 1h15</li>
-                  <li>Avignon Airport: 45 min</li>
-                  <li>Lyon Airport: 2h30</li>
-                  <li>Car rental recommended</li>
+                  <li>Nice Côte d'Azur International Airport: 20 min (16 km)</li>
+                  <li>Direct flights to most European capitals</li>
+                  <li>Taxi or car rental at airport</li>
                 </ul>
               </CardContent>
             </Card>
