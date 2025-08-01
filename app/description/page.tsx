@@ -17,7 +17,7 @@ export default function DescriptionPage() {
     { label: "Last renovation", value: "2024" },
     { label: "Energy rating", value: "C" },
     { label: "GHG emissions", value: "B" },
-    { label: "Heating", value: "Heat pump + Fireplace" },
+    { label: "Heating and cooling", value: "Heat pump and air conditioning system" },
     { label: "Insulation", value: "Renovated in 2004" },
   ]
 
@@ -60,12 +60,12 @@ export default function DescriptionPage() {
               <div className="prose prose-lg text-gray-700 space-y-4">
                 <p>
                   This magnificent Provençal villa of 323m² living space will seduce you with its authentic charm and
-                  quality features. Built in 1975 and completely renovated in 2004 and again in 2024, it perfectly combines Provençal
+                  quality features. Built in 1975 and completely renovated in 2004, with aircon installed in 2024, it perfectly combines Provençal
                   tradition and modern comfort.
                 </p>
                 <p>
                   The property consists of ground floor living areas with spacious living room with fireplace, an equipped kitchen open to the
-                  dining room, 3 bedrooms and 2 bathrooms. On first floor and second floor, with breathtaking views, are 3 holiday apartments, each with own living room, kitchen and bedrooms.               </p>
+                  dining room, 3 bedrooms and 2 bathrooms. On first floor and second floor, with breathtaking views, are 3 independent apartments, each with own living room, kitchen and bedrooms. Suitable for a high-yield rental property, an extended residence or a flexible combination of both.              </p>
                 <p>
                   The landscaped grounds of 1,000m² offer numerous relaxation areas: shaded terraces, Mediterranean
                   garden with palm trees and bougainville, and a superb 12x6m swimming pool with panoramic views.
@@ -80,10 +80,13 @@ export default function DescriptionPage() {
                   "Breathtaking panoramic views over the hills",
                   "South-facing with exceptional brightness",
                   "Noble materials: stone, terracotta tiles",
-                  "Swimming pool with pool house",
-                  "Garage + parking spaces",
+
+                  "Flat, ample parking on the property",
                   "Automatic irrigation system",
-                  "Close to amenities and Vence village",
+                  "Three independent apartments - ideal for steady rental income",
+                  "Flexible layout with the potential to be merged into a generous family home",
+                  "Sought-after location in one of the most desirable areas of the region",
+                  "Centrally yet quietly situated, within walking distance to restaurants and supermarkets",
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-terracotta rounded-full flex-shrink-0"></div>
@@ -148,6 +151,21 @@ export default function DescriptionPage() {
                   <div className="pt-4 border-t border-gray-100">
                     <p className="text-sm text-gray-600">
                       Energy assessment carried out in 2023. Thermal insulation redone in 2004.
+                    </p>
+                  </div>
+
+                  {/* Environmental Risk Assessment */}
+                  <div className="pt-4 border-t border-gray-100">
+                    <CardTitle className="font-playfair text-xl text-gray-800 mb-2">Public Environmental Risk Information</CardTitle>
+                    <p className="text-sm text-gray-600 mb-2">
+                      Like all properties in France, this home is subject to an environmental risk assessment via the official <strong>Géorisques</strong> portal.
+                    </p>
+                    <p className="text-sm text-gray-600 mb-2">
+                      This government resource provides details on any natural risks (such as flooding, ground movement, forest fire exposure, or radon levels) as well as technical or soil-related risks (like nearby industrial activity or land pollution), depending on the property's location.
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      You can consult the full report for this property at:<br/>
+                      <a href="https://www.georisques.gouv.fr" target="_blank" rel="noopener noreferrer" className="text-terracotta underline">www.georisques.gouv.fr</a>
                     </p>
                   </div>
                 </div>
