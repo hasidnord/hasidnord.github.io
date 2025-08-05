@@ -30,7 +30,7 @@ export default function VideoPage() {
           title: "Villa Tour - Complete Walkthrough",
           duration: "2:00",
           thumbnail: "/indkørsel.JPG?height=300&width=500",
-          video: "/indkørsel.mp4",
+          video: "/Driveway8.mp4",
           description: "Complete guided tour of the villa and grounds",
         },
         {
@@ -86,8 +86,8 @@ export default function VideoPage() {
         {
           title: "Garden & Pool Area",
           duration: "4:50",
-          thumbnail: "/placeholder.svg?height=300&width=500",
-          video: "",
+          thumbnail: "/indkørsel.JPG?height=300&width=500",
+          video: "Driveway8.mp4",
           description: "Beautiful Mediterranean garden and swimming pool",
         },
         {
