@@ -64,10 +64,10 @@ export default function GalleryPage() {
     {
       title: "Apartment 3",
       images: [
-        { src: "/appC1.jpg?height=400&width=600", alt: "Apartment 3 spacious living room" },
-        { src: "/appC2.jpg?height=400&width=600", alt: "Apartment 3 living area with dining table" },
-        { src: "/appC3.jpg?height=400&width=600", alt: "Apartment 3 bedroom with adjoining bathroom" },
-        { src: "/appC4.jpg?height=400&width=600", alt: "Apartment 3 kitchen" },
+        { src: "/app3_1.jpg?height=400&width=600", alt: "Apartment 3 spacious living room" },
+        { src: "/app3_2.jpg?height=400&width=600", alt: "Apartment 3 living area with dining table" },
+        { src: "/app3_3.jpg?height=400&width=600", alt: "Apartment 3 bedroom with adjoining bathroom" },
+        { src: "/app3_4.jpg?height=400&width=600", alt: "Apartment 3 kitchen" },
       ],
     },
     {
