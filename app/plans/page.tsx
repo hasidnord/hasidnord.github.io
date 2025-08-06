@@ -45,10 +45,10 @@ Filled with natural light, it offers a versatile layout that includes:
       pdf: "/plan_ground_floor.pdf", // <-- Set your PDF filename here
     },
     {
-      title: "First Floor - Apartments A, B & C",
+      title: "First Floor - Apartments 1, 2 & 3",
       description: "Three independent apartments",
-      image: "/plan_first_floor_w_ABC.jpg?height=600&width=800",
-      area: "60+57+46m²",
+      image: "/plan_first_floor.jpg?height=600&width=800",
+      area: "46+57+60m²",
       rooms: [
         // Apartment 1
         `<strong>Apartment 1 - 46m²":</strong>`,
