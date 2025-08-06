@@ -50,24 +50,8 @@ Filled with natural light, it offers a versatile layout that includes:
       image: "/plan_first_floor_w_ABC.jpg?height=600&width=800",
       area: "60+57+46m²",
       rooms: [
-        // Apartment A
-        `<strong>Apartment A - 60m²":</strong>`,
-        `<desc>
-With its own private entrance—yet easily connectable to the main house—this apartment is ideal for welcoming guests or generating income through seasonal rentals and offers:<br/>
-</desc>`,
-        "A bright and airy living room featuring an open fireplace and uninterrupted views",
-        "A fully equipped kitchen with everything needed for comfortable living",
-        "A double bedroom with its own en-suite bathroom",
-        // Apartment B
-        `<strong>Apartment B - 57m² (+ 15 upstairs adding to 72m²):</strong>`,
-        `<desc>
-Beautifully renovated with attention to detail, this generous apartment boasts stunning views from the living area, which flows seamlessly into a fully equipped kitchen. There's ample space for a dining area as well as a comfortable lounge.<br/>
-The apartment includes two double bedrooms:
-</desc>`,
-        "One on the first floor, with an adjacent shower room and WC",
-        "Another upstairs, featuring its own en-suite bathroom",
-        // Apartment C
-        `<strong>Apartment C - 46m²:</strong>`,
+        // Apartment 1
+        `<strong>Apartment 1 - 46m²":</strong>`,
         `<desc>
 With its own private entrance, this stylish apartment has been thoughtfully renovated to combine comfort with contemporary design. It features elegant travertine floors throughout, sleek lines, and a modern aesthetic.
 The layout includes:
@@ -75,17 +59,33 @@ The layout includes:
         "A double bedroom with an adjoining bathroom",
         "A cosy living area, ideal for relaxed everyday living or short-term stays",
         "A fully equipped kitchen",
+        // Apartment 2
+        `<strong>Apartment 2 - 57m² (+ 15 upstairs adding to 72m²):</strong>`,
+        `<desc>
+Beautifully renovated with attention to detail, this generous apartment boasts stunning views from the living area, which flows seamlessly into a fully equipped kitchen. There's ample space for a dining area as well as a comfortable lounge.<br/>
+The apartment includes two double bedrooms:
+</desc>`,
+        "One on the first floor, with an adjacent shower room and WC",
+        "Another upstairs, featuring its own en-suite bathroom",
+        // Apartment 3
+        `<strong>Apartment 3 - 60m²:</strong>`,
+        `<desc>
+With its own private entrance—yet easily connectable to the main house—this apartment is ideal for welcoming guests or generating income through seasonal rentals and offers:<br/>
+</desc>`,
+        "A bright and airy living room featuring an open fireplace and uninterrupted views",
+        "A fully equipped kitchen with everything needed for comfortable living",
+        "A double bedroom with its own en-suite bathroom",
       ],
       pdf: "/plan_first_floor.pdf",
     },
     {
-      title: "Second Floor - Apartment B",
+      title: "Second Floor - Apartment 2",
       description: "Top floor of apartment B with panoramic views",
       image: "/plan_second_floor.jpg?height=600&width=800",
       area: "15m²",
       rooms: [
         `<desc>
-This upper level of Apartment B offers a private retreat with a spacious bedroom, bathroom with a tub, and ample storage.<br/>
+This upper level of Apartment 2 offers a private retreat with a spacious bedroom, bathroom with a tub, and ample storage.<br/>
 Large windows provide sweeping views of the surrounding landscape, making it a tranquil and light-filled space.
 </desc>`,
         "Bedroom",
@@ -95,7 +95,7 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
       pdf: "/plan_second_floor.pdf",
     },
     {
-      title: "Basement Plan",
+      title: "Cellar Plan",
       description: "",
       image: "/plan_basement.jpg?height=600&width=800",
       area: "42m²",
