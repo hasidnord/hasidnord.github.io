@@ -232,10 +232,14 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
             Download all technical drawings and specifications in one comprehensive PDF package.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="inline-flex items-center px-8 py-3 bg-terracotta text-white rounded-full hover:bg-terracotta/90 transition-colors font-medium">
+            <a
+              href="/plans_of_the_villa.pdf"
+              download
+              className="inline-flex items-center px-8 py-3 bg-terracotta text-white rounded-full hover:bg-terracotta/90 transition-colors font-medium"
+            >
               <Download className="w-5 h-5 mr-2" />
               Download All Plans (PDF)
-            </button>
+            </a>
             <a
               href="/contact?plans=true"
               className="inline-flex items-center px-8 py-3 border-2 border-terracotta text-terracotta rounded-full hover:bg-terracotta hover:text-white transition-colors font-medium"
