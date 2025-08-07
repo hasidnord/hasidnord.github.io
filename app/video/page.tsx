@@ -83,8 +83,8 @@ export default function VideoPage() {
         <div className="text-center mb-12">
           <h1 className="font-playfair text-5xl font-bold text-gray-800 mb-4">Video Gallery</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Experience the villa through our comprehensive video collection showcasing every detail of this exceptional
-            property
+            Take a closer look at the villa with our video tours, capturing the charm of the main home, the (holiday) 
+            apartments, and the beautiful outdoor spaces
           </p>
         </div>
 
