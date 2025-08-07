@@ -96,7 +96,10 @@ export default function GalleryPage() {
         <div className="text-center mb-12">
           <h1 className="font-playfair text-5xl font-bold text-gray-800 mb-4">Photo Gallery</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover every corner of this exceptional villa through our photo collection
+           Step inside and explore every corner of this exceptional villa through our photo gallery.
+          With a total of 323 square meters of living space, the property includes the main residence 
+          and three (holiday) apartments. Built on a hillside, the villa offers ground-level access to 
+          both the main home and the apartments—each with its own private entrance on opposite sides.
           </p>
         </div>
 
