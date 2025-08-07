@@ -23,15 +23,6 @@ export default function GalleryPage() {
         { src: "/main_hall.jpg?height=400&width=600", alt: "Open layout kitchen and dining room" },
         { src: "/main_kitchen.jpg?height=400&width=600", alt: "Equipped kitchen" },
         { src: "/main_office.jpg?height=400&width=600", alt: "Office with garden view" },
-        { src: "/main_dining.jpg?height=400&width=600", alt: "Dining area with large windows" },
-        { src: "/main_library.jpg?height=400&width=600", alt: "Library corner in living area" },
-        { src: "/main_tv.jpg?height=400&width=600", alt: "TV lounge area" },
-        { src: "/main_entry.jpg?height=400&width=600", alt: "Entry hall with coat rack" },
-      ],
-    },
-    {
-      title: "Bedrooms & Suites, level 1",
-      images: [
         { src: "/main_bedroom.jpg?height=400&width=600", alt: "Master suite with walk-in closet" },
         { src: "/main_guestroom.jpg?height=400&width=600", alt: "Guest bedroom with bathroom" },
         { src: "/main_toilet.jpg?height=400&width=600", alt: "Main bathroom" },
