@@ -8,7 +8,7 @@ import { useState } from "react"
 export default function GalleryPage() {
   const galleryCategories = [
     {
-      title: "Exterior & Garden, level 1",
+      title: "Exterior & Garden",
       images: [
         { src: "/main_facade.jpg?height=400&width=600", alt: "Main facade of the villa" },
         { src: "/main_lawn.jpg?height=400&width=600", alt: "Mediterranean garden with flowers" },
@@ -17,16 +17,16 @@ export default function GalleryPage() {
       ],
     },
     {
-      title: "Living Areas, level 1",
+      title: "Main residence",
       images: [
         { src: "/main_livingroom.jpg?height=400&width=600", alt: "Main living room with fireplace" },
         { src: "/main_hall.jpg?height=400&width=600", alt: "Open layout kitchen and dining room" },
         { src: "/main_kitchen.jpg?height=400&width=600", alt: "Equipped kitchen" },
-        { src: "/main_office.jpg?height=400&width=600", alt: "Office with garden view" },
-        { src: "/main_bedroom.jpg?height=400&width=600", alt: "Master suite with walk-in closet" },
+        { src: "/main_office.jpg?height=400&width=600", alt: "Office (or bedroom) with garden view" },
+        { src: "/main_bedroom.jpg?height=400&width=600", alt: "Master bedroom with walk-in closet" },
         { src: "/main_guestroom.jpg?height=400&width=600", alt: "Guest bedroom with bathroom" },
         { src: "/main_toilet.jpg?height=400&width=600", alt: "Main bathroom" },
-        { src: "/main_shower.jpg?height=400&width=600", alt: "Main shower" },
+        { src: "/main_shower.jpg?height=400&width=600", alt: "Shower in main bathroom" },
       ],
     },
     {
@@ -44,7 +44,7 @@ export default function GalleryPage() {
         { src: "/app2_1.jpg?height=400&width=600", alt: "Apartment 2 spacious living area" },
         { src: "/app2_2.jpg?height=400&width=600", alt: "Apartment 2 master bedroom" },
         { src: "/app2_3.jpg?height=400&width=600", alt: "Apartment 2 bathroom" },
-        { src: "/app2_4.jpg?height=400&width=600", alt: "Apartment 2 second floor bedroom" },
+        { src: "/app2_4.jpg?height=400&width=600", alt: "Apartment 2 top floor bedroom" },
       ],
     },
     {
@@ -59,17 +59,17 @@ export default function GalleryPage() {
     {
       title: "Views & Panoramas",
       images: [
-        { src: "/view1.jpg?height=400&width=600", alt: "Panoramic view from top floor" },
+        { src: "/view1.jpg?height=400&width=600", alt: "Panoramic view" },
         { src: "/view2.jpg?height=400&width=600", alt: "Sunset over the hills" },
-        { src: "/view3.jpg?height=400&width=600", alt: "Panoramic view from the terrace" },
+        { src: "/view3.jpg?height=400&width=600", alt: "View from the house" },
         { src: "/view4.jpg?height=400&width=600", alt: "View from the pool" },
       ],
     },
     {
       title: "Driveway and upper terraces",
       images: [
-         { src: "/Top1.jpg?height=400&width=600", alt: "Top terrace outside apartments A to C" },
-        { src: "/Top2.jpg?height=400&width=600", alt: "Topterrace with views" },
+         { src: "/Top1.jpg?height=400&width=600", alt: "Top terrace outside the (holiday) apartments" },
+        { src: "/Top2.jpg?height=400&width=600", alt: "Top terrace with views" },
         { src: "/Top3.jpg?height=400&width=600", alt: "House seen from driveway" },
         { src: "/Top4.jpg?height=400&width=600", alt: "Driveway with lots of parking space" },
       ],
