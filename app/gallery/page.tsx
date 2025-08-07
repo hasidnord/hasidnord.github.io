@@ -30,15 +30,6 @@ export default function GalleryPage() {
       ],
     },
     {
-      title: "Views & Panoramas",
-      images: [
-        { src: "/view1.jpg?height=400&width=600", alt: "Panoramic view from top floor" },
-        { src: "/view2.jpg?height=400&width=600", alt: "Sunset over the hills" },
-        { src: "/view3.jpg?height=400&width=600", alt: "Panoramic view from the terrace" },
-        { src: "/view4.jpg?height=400&width=600", alt: "View from the pool" },
-      ],
-    },
-    {
       title: "Apartment 1",
       images: [
         { src: "/app1_1.jpg?height=400&width=600", alt: "Apartment 1 living area" },
@@ -63,6 +54,15 @@ export default function GalleryPage() {
         { src: "/app3_2.jpg?height=400&width=600", alt: "Apartment 3 living area with dining table" },
         { src: "/app3_3.jpg?height=400&width=600", alt: "Apartment 3 bedroom with adjoining bathroom" },
         { src: "/app3_4.jpg?height=400&width=600", alt: "Apartment 3 kitchen" },
+      ],
+    },
+    {
+      title: "Views & Panoramas",
+      images: [
+        { src: "/view1.jpg?height=400&width=600", alt: "Panoramic view from top floor" },
+        { src: "/view2.jpg?height=400&width=600", alt: "Sunset over the hills" },
+        { src: "/view3.jpg?height=400&width=600", alt: "Panoramic view from the terrace" },
+        { src: "/view4.jpg?height=400&width=600", alt: "View from the pool" },
       ],
     },
     {
