@@ -57,14 +57,6 @@ export default function HomePage() {
             >
               <Link href="/contact">Contact Us</Link>
             </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="border-white text-white hover:bg-white hover:text-terracotta px-8 py-3 rounded-full bg-transparent"
-            >
-              <Link href="/contact?info=true">Send More Info</Link>
-            </Button>
           </div>
         </div>
       </section>
