@@ -102,21 +102,21 @@ export default function MapPage() {
 
         {/* Local Amenities */}
         <section className="mb-16">
-          <h2 className="font-playfair text-3xl font-bold text-terracotta mb-8 text-center">Amenities & Services</h2>
+          <h2 className="font-playfair text-3xl font-bold text-terracotta mb-8 text-center">Amenities & Services in walking distance</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="shadow-lg rounded-xl">
               <CardHeader>
                 <CardTitle className="font-playfair text-lg text-gray-800 flex items-center space-x-2">
                   <ShoppingBag className="w-5 h-5 text-terracotta" />
-                  <span>Shopping</span>
+                  <span>Shopping - a 10 min. walk to:</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• Vence supermarket: 5 min</li>
-                  <li>• Artisan bakery: 3 min</li>
-                  <li>• Pharmacy: 5 min</li>
+                  <li>• Vence supermarket</li>
+                  <li>• Artisan bakery</li>
+                  <li>• Pharmacy</li>
                   <li>• Weekly market: Tuesday</li>
                 </ul>
               </CardContent>
@@ -126,15 +126,15 @@ export default function MapPage() {
               <CardHeader>
                 <CardTitle className="font-playfair text-lg text-gray-800 flex items-center space-x-2">
                   <Utensils className="w-5 h-5 text-terracotta" />
-                  <span>Restaurants</span>
+                  <span>Restaurants - a 15 min. walk to:</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• La Bastide de Gordes: 8 min</li>
-                  <li>• Le Carillon: 5 min</li>
-                  <li>• Auberge de Carcarille: 10 min</li>
-                  <li>• Many terraces: town center</li>
+                  <li>• L’Auberge des Seigneurs</li>
+                  <li>• L’Ambroisy</li>
+                  <li>• La Table de Domi</li>
+                  <li>• ...and many more</li>
                 </ul>
               </CardContent>
             </Card>
@@ -143,15 +143,15 @@ export default function MapPage() {
               <CardHeader>
                 <CardTitle className="font-playfair text-lg text-gray-800 flex items-center space-x-2">
                   <Camera className="w-5 h-5 text-terracotta" />
-                  <span>Attractions</span>
+                  <span>Attractions - a 15-25 min walk to:</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• Vence village: 5 min</li>
-                  <li>• Sénanque Abbey: 15 min</li>
-                  <li>• Roussillon: 20 min</li>
-                  <li>• Fontaine-de-Vaucluse: 25 min</li>
+                  <li>• Vence Cathédrale de la Nativité)</li>
+                  <li>• Musée de Vence – Château de Villeneuve</li>
+                  <li>• Chapelle du Rosaire (Matisse‑Chapel)</li>
+                  <li>• Fontaine du Peyra</li>
                 </ul>
               </CardContent>
             </Card>
