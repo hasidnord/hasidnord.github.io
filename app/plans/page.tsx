@@ -145,11 +145,15 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
             </CardContent>
           </Card>
           <Card className="text-center shadow-lg rounded-xl">
-            <CardContent className="p-6">
+            <a
+              href="/plans_of_the_villa.pdf"
+              download
+              className="block p-6 text-center"
+            >
               <Download className="w-8 h-8 text-terracotta mx-auto mb-3" />
               <div className="text-2xl font-playfair font-bold text-gray-800 mb-1">PDF</div>
               <p className="text-sm text-gray-600">Downloadable Plans</p>
-            </CardContent>
+            </a>
           </Card>
         </div>
 
