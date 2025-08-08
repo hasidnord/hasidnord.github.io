@@ -125,7 +125,7 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
         <div className="text-center mb-12">
           <h1 className="font-playfair text-5xl font-bold text-gray-800 mb-4">House Plans & Drawings</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Detailed architectural plans and technical drawings of the villa, including all floors and outdoor spaces
+            Detailed architectural plans of the villa, including all floors
           </p>
         </div>
 
