@@ -229,7 +229,7 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
         <div className="text-center mt-16 bg-cream p-8 rounded-xl">
           <h3 className="font-playfair text-2xl font-bold text-gray-800 mb-4">Complete Plan Package</h3>
           <p className="text-lg text-gray-600 mb-6">
-            Download all technical drawings and specifications in one comprehensive PDF package.
+            Download all technical drawings in one PDF package.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
