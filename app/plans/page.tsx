@@ -109,14 +109,6 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
       ],
       pdf: "/plan_basement.pdf",
     },
-    {
-      title: "Site Plan & Grounds",
-      description: "Complete property layout with garden and pool",
-      image: "/placeholder.svg?height=600&width=800",
-      area: "1,000m²",
-      rooms: ["Swimming pool 12x6m", "Pool house 15m²", "Garage 40m²", "Terraces", "Garden", "Parking"],
-      pdf: "/plan_site.pdf",
-    },
   ]
 
   return (
