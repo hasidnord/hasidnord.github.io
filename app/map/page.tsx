@@ -15,7 +15,7 @@ export default function MapPage() {
            medieval walls, this vibrant town offers a blend of culture, nature, and authenticity.
           </p>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-4">
-          Just a 10-minute stroll from your doorstep lies the enchanting historic centre – a lively hub brimming 
+          Just a 15-minute stroll from our doorstep lies the enchanting historic centre – a lively hub brimming 
           with artisan boutiques, open-air cafés, and weekly markets. Whether you're sipping a glass of rosé on 
           a terrace or enjoying a scenic hike in the surrounding hills, Vence offers a lifestyle that is both 
           refined and relaxed.
