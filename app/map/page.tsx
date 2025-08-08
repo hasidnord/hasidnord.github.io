@@ -167,29 +167,29 @@ export default function MapPage() {
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="shadow-lg rounded-xl">
               <CardHeader>
-                <CardTitle className="font-playfair text-xl text-terracotta">Luberon Hilltop Villages</CardTitle>
+                <CardTitle className="font-playfair text-xl text-terracotta">Charming nearby Hilltop Villages</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex justify-between">
-                    <span>Vence (historic center)</span>
-                    <span className="text-terracotta font-medium">5 min</span>
+                    <span>Saint-Paul-de-Vence</span>
+                    <span className="text-terracotta font-medium">10 min</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Roussillon (ochre cliffs)</span>
+                    <span>Tourrettes-sur-Loup</span>
+                    <span className="text-terracotta font-medium">15 min</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>Le Haut-de-Cagnes</span>
                     <span className="text-terracotta font-medium">20 min</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Ménerbes</span>
-                    <span className="text-terracotta font-medium">25 min</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Bonnieux</span>
+                    <span>Le Bar-sur-Loup</span>
                     <span className="text-terracotta font-medium">30 min</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Lacoste</span>
-                    <span className="text-terracotta font-medium">35 min</span>
+                    <span>Gourdon</span>
+                    <span className="text-terracotta font-medium">45 min</span>
                   </li>
                 </ul>
               </CardContent>
@@ -202,24 +202,24 @@ export default function MapPage() {
               <CardContent>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex justify-between">
-                    <span>Sénanque Abbey</span>
+                    <span>Fondation Maeght</span>
                     <span className="text-terracotta font-medium">15 min</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Fontaine-de-Vaucluse</span>
+                    <span>Gorges du Loup</span>
                     <span className="text-terracotta font-medium">25 min</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Isle-sur-la-Sorgue</span>
-                    <span className="text-terracotta font-medium">30 min</span>
+                    <span>Cagnes-sur-Mer Beach</span>
+                    <span className="text-terracotta font-medium">25 min</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Avignon (Papal Palace)</span>
-                    <span className="text-terracotta font-medium">45 min</span>
+                    <span>Promenade des Anglais, Nice</span>
+                    <span className="text-terracotta font-medium">40 min</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Lavender fields</span>
-                    <span className="text-terracotta font-medium">10 min</span>
+                    <span>Boulevard de la Croisette, Cannes</span>
+                    <span className="text-terracotta font-medium">50 min</span>
                   </li>
                 </ul>
               </CardContent>
