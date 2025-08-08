@@ -32,7 +32,7 @@ export default function MapPage() {
             <CardHeader>
               <CardTitle className="font-playfair text-2xl text-terracotta flex items-center space-x-2">
                 <MapPin className="w-6 h-6" />
-                <span>227 Chem. du Baric, 06140 Vence</span>
+                <span>227 Chemin du Baric, 06140 Vence, France</span>
               </CardTitle>
             </CardHeader>
             <CardContent className="p-0">

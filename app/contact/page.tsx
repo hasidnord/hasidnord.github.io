@@ -87,8 +87,8 @@ export default function ContactPage() {
                     <MapPin className="w-6 h-6 text-terracotta" />
                     <div>
                       <h3 className="font-playfair text-lg font-semibold text-gray-800">Address</h3>
-                      <p className="text-gray-600">227 Chem. du Baric</p>
-                      <p className="text-gray-600">06140 Vence</p>
+                      <p className="text-gray-600">227 Chemin du Baric</p>
+                      <p className="text-gray-600">06140 Vence, France</p>
                     </div>
                   </div>
                 </CardContent>
@@ -120,7 +120,7 @@ export default function ContactPage() {
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                        Full name *
+                        Your name *
                       </label>
                       <Input
                         id="name"
@@ -161,7 +161,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       rows={6}
                       className="rounded-lg"
-                      placeholder="Tell us about your questions, or request a visit..."
+                      placeholder="Write us to request a visit, technical specifications or any other questions..."
                     />
                   </div>
 
@@ -174,7 +174,7 @@ export default function ContactPage() {
                   </Button>
 
                   <p className="text-sm text-gray-500 text-center">
-                    * Required fields. Your data is protected and will not be shared.
+                    * Required fields. Your data will not be shared.
                   </p>
                 </form>
               </CardContent>
