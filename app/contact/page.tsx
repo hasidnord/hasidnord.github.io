@@ -23,7 +23,7 @@ export default function ContactPage() {
     const body = encodeURIComponent(
       `Name: ${formData.name}\nPhone: ${formData.phone}\nMessage: ${formData.message}`
     )
-    window.location.href = `mailto:hannesideniusnordentoft@gmail.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:info@netsafety.dk?subject=${subject}&body=${body}`
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
