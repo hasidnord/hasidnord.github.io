@@ -161,7 +161,7 @@ export default function MapPage() {
         {/* Nearby Attractions */}
         <section>
           <h2 className="font-playfair text-3xl font-bold text-terracotta mb-8 text-center">
-            Nearby Points of Interest
+            Nearby Points of Interest - by car
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
