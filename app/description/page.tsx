@@ -9,11 +9,11 @@ export default function DescriptionPage() {
     { icon: Bath, label: "Bathrooms", value: "6" },
     { icon: Car, label: "Parking", value: "4-6 cars" },
     { icon: Ruler, label: "Land", value: "1,000 m²" },
-    { icon: TreePine, label: "Swimming pool", value: "12x6m" },
+    { icon: TreePine, label: "Swimming pool", value: "8x4m" },
   ]
 
   const technicalDetails = [
-    { label: "Year built", value: "1975" },
+    { label: "Year built", value: "1970" },
     { label: "Last renovation", value: "2024" },
     { label: "Energy rating", value: "C" },
     { label: "GHG emissions", value: "B" },
@@ -60,7 +60,7 @@ export default function DescriptionPage() {
               <div className="prose prose-lg text-gray-700 space-y-4">
                 <p>
                   This magnificent Provençal villa of 323m² living space will seduce you with its authentic charm and
-                  quality features. Built in 1975 and completely renovated in 2004, with aircon installed in 2024, it perfectly combines Provençal
+                  quality features. Built in 1970 and completely renovated in 2004, with aircon installed in 2024, it perfectly combines Provençal
                   tradition and modern comfort.
                 </p>
                 <p>
@@ -68,7 +68,7 @@ export default function DescriptionPage() {
                   dining room, 3 bedrooms and 2 bathrooms. On first floor and second floor, with breathtaking views, are 3 independent apartments, each with own living room, kitchen and bedrooms. Suitable for a high-yield rental property, an extended residence or a flexible combination of both.              </p>
                 <p>
                   The landscaped grounds of 1,000m² offer numerous relaxation areas: shaded terraces, Mediterranean
-                  garden with palm trees and bougainville, and a superb 12x6m swimming pool with panoramic views.
+                  garden with palm trees and bougainville, and a superb 8x4m swimming pool with panoramic views.
                 </p>
               </div>
             </div>
