@@ -186,14 +186,14 @@ export default function ContactPage() {
                 Download Information flyer
               </h3>
               <p className="text-gray-700 mb-4">
-                Get our information flyer including detailed specifications.
+                Get our flyer with beautiful photos and information.
               </p>
               <a
-                href="/lav_brochure.pdf"
+                href="/Brochure.pdf"
                 download
                 className="w-full bg-terracotta hover:bg-terracotta/90 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center text-center"
               >
-                Download flyer with informations
+                Download flyer
               </a>
             </div>
 
