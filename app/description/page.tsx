@@ -7,16 +7,16 @@ export default function DescriptionPage() {
     { icon: Home, label: "Living space", value: "323 m²" },
     { icon: Bed, label: "Bedrooms", value: "7" },
     { icon: Bath, label: "Bathrooms", value: "6" },
-    { icon: Car, label: "Parking", value: "4-6 cars" },
+    { icon: Car, label: "Parking", value: "7 cars" },
     { icon: Ruler, label: "Land", value: "1,000 m²" },
     { icon: TreePine, label: "Swimming pool", value: "8x4m" },
   ]
 
   const technicalDetails = [
     { label: "Year built", value: "1970" },
-    { label: "Last renovation", value: "2024" },
+    { label: "Renovation", value: "Regularly updated and carefully maintained" },
     { label: "Energy rating", value: "C" },
-    { label: "GHG emissions", value: "B" },
+    { label: "GHG emissions", value: "A" },
     { label: "Heating and cooling", value: "Heat pump and air conditioning system" },
     { label: "Insulation", value: "Renovated in 2004" },
   ]
@@ -78,12 +78,12 @@ export default function DescriptionPage() {
               <div className="space-y-3">
                 {[
                   "Breathtaking panoramic views over the hills",
-                  "South-facing with exceptional brightness",
+                  "South/west-facing with exceptional brightness",
                   "Noble materials: stone, terracotta tiles",
 
                   "Flat, ample parking on the property",
                   "Automatic irrigation system",
-                  "Three independent apartments - ideal for steady rental income",
+                  "Three independent apartments and a main house - ideal for steady rental income",
                   "Flexible layout with the potential to be merged into a generous family home",
                   "Sought-after location in one of the most desirable areas of the region",
                   "Centrally yet quietly situated, within walking distance to restaurants and supermarkets",
@@ -203,10 +203,10 @@ export default function DescriptionPage() {
                 rooms: [
                   "Terrace with electrical awning",
                   "Swimming pool",
-                  "Pool house 15m²",
-                  "Garage 40m²",
+                  "Green-house style potting shed 8m²",
+                  "Garage 30m²",
                   "Landscaped garden",
-                  "Parking 4-6 spaces",
+                  "Parking 7 spaces",
                 ],
               },
             ].map((floor, index) => (
