@@ -51,7 +51,7 @@ export default function Navigation() {
               className="font-playfair text-2xl font-bold text-terracotta"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Villa Provence
+              Provencal Villa
             </Link>
 
             {/* Desktop Navigation */}
