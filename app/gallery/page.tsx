@@ -93,25 +93,48 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen py-16 bg-cream">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h1 className="font-playfair text-5xl font-bold text-gray-800 mb-4">Photo Gallery</h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-           Explore every corner of this exceptional villa through our photo gallery, and then see <a href="/video" className="text-terracotta underline">our walkthrough videos</a>.
-          <br/>
-          With a total of 323 square meters of living space, the property includes the main residence 
-          and three (holiday) apartments. Built on a hillside, the villa offers ground-level access to 
-          both the main home and the apartments—each with its own private entrance on opposite sides. 
-          The apartments can also be accessed internally from the main residence, making the layout flexible.
-
-
+        <div className="text-center mb-8">
+          <h1 className="font-playfair text-4xl md:text-5xl font-bold text-gray-800 mb-2">Photo Gallery</h1>
+          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-2">
+            Explore every corner of this exceptional villa through our photo gallery, and then see <a href="/video" className="text-terracotta underline">the walkthrough videos</a>.
+            With a total of 323 square meters of living space, the property includes the main residence and three (holiday) apartments. Built on a hillside, the villa offers ground-level access to both the main home and the apartments—each with its own private entrance on opposite sides. The apartments can also be accessed internally from the main residence, making the layout flexible.
           </p>
         </div>
 
-        {galleryCategories.map((category, categoryIndex) => (
-          <section key={categoryIndex} className="mb-16">
-            <h2 className="font-playfair text-3xl font-bold text-terracotta mb-8 text-center">{category.title}</h2>
+        {/* First section of 4 photos above the line */}
+        <section className="mb-12">
+          <h2 className="font-playfair text-2xl md:text-3xl font-bold text-terracotta mb-6 text-center">Exterior & Garden</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            {galleryCategories[0].images.map((image, imageIndex) => (
+              <Card
+                key={imageIndex}
+                className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow rounded-xl cursor-pointer"
+                onClick={() => openViewer(galleryCategories[0].images, imageIndex)}
+              >
+                <CardContent className="p-0">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <Image
+                      src={image.src || "/placeholder.svg"}
+                      alt={image.alt}
+                      fill
+                      className="object-cover hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="p-3">
+                    <p className="text-gray-700 text-center text-sm md:text-base">{image.alt}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </section>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
+        {/* Remaining gallery sections below the line */}
+        <hr className="my-12 border-gray-300" />
+        {galleryCategories.slice(1).map((category, categoryIndex) => (
+          <section key={categoryIndex} className="mb-16">
+            <h2 className="font-playfair text-2xl md:text-3xl font-bold text-terracotta mb-6 text-center">{category.title}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
               {category.images.map((image, imageIndex) => (
                 <Card
                   key={imageIndex}
@@ -119,7 +142,7 @@ export default function GalleryPage() {
                   onClick={() => openViewer(category.images, imageIndex)}
                 >
                   <CardContent className="p-0">
-                    <div className="relative aspect-[3/2] overflow-hidden">
+                    <div className="relative aspect-[4/3] overflow-hidden">
                       <Image
                         src={image.src || "/placeholder.svg"}
                         alt={image.alt}
@@ -127,8 +150,8 @@ export default function GalleryPage() {
                         className="object-cover hover:scale-105 transition-transform duration-300"
                       />
                     </div>
-                    <div className="p-4">
-                      <p className="text-gray-700 text-center">{image.alt}</p>
+                    <div className="p-3">
+                      <p className="text-gray-700 text-center text-sm md:text-base">{image.alt}</p>
                     </div>
                   </CardContent>
                 </Card>
