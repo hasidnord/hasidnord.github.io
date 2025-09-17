@@ -29,7 +29,7 @@ export default function HomePage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/exterior3_swimmingpool.JPEG?height=1080&width=1920"
+            src="/exterior3_swimmingpool.JPG?height=1080&width=1920"
             alt="Provençal villa with panoramic views"
             fill
             className="object-cover"

@@ -10,9 +10,9 @@ export default function GalleryPage() {
     {
       title: "Exterior & Garden",
       images: [
-        { src: "/exterior1_poolfacade.jpg?height=400&width=600", alt: "Facade of the villa from the poolside" },
+        { src: "/facade.jpg?height=400&width=600", alt: "Facade of the villa from the poolside" },
         { src: "/exterior2_lawn.jpg?height=400&width=600", alt: "Mediterranean garden with flowers" },
-        { src: "/exterior3_swimmingpool.JPG?height=400&width=600", alt: "Swimming pool with panoramic view" },
+        { src: "/exterior1_poolfacade.jpg?height=400&width=600", alt: "Swimming pool with panoramic view" },
         { src: "/exterior4_terrace.jpg?height=400&width=600", alt: "Terrace with electric awning" },
       ],
     },
