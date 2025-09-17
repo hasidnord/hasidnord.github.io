@@ -30,6 +30,21 @@ export default function DescriptionPage() {
             Discover all the details of this exceptional Provençal villa, its technical characteristics and numerous
             assets
           </p>
+          <div className="mt-8 p-6 bg-terracotta/5 rounded-xl border border-terracotta/20 max-w-xl mx-auto">
+            <h3 className="font-playfair text-xl font-semibold text-terracotta mb-4">
+              Download Information flyer
+            </h3>
+            <p className="text-gray-700 mb-4">
+              Get our flyer with beautiful photos and information.
+            </p>
+            <a
+              href="/Brochure.pdf"
+              download
+              className="w-full bg-terracotta hover:bg-terracotta/90 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center text-center"
+            >
+              Download flyer
+            </a>
+          </div>
         </div>
 
         {/* Main Features */}

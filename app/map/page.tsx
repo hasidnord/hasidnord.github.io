@@ -21,8 +21,7 @@ export default function MapPage() {
           refined and relaxed.
           </p>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-4">
-          Here, you’re not just buying a home – you’re embracing a way of life where the light is golden, the air 
-          is fresh, and the pace is beautifully unhurried.
+          Here, you’re not just buying a home – you’re embracing a way of life where the pace is beautifully unhurried.
           </p>
         </div>
 

@@ -180,22 +180,6 @@ export default function ContactPage() {
               </CardContent>
             </Card>
 
-            {/* Send More Info Section */}
-            <div className="mt-8 p-6 bg-terracotta/5 rounded-xl border border-terracotta/20">
-              <h3 className="font-playfair text-xl font-semibold text-terracotta mb-4">
-                Download Information flyer
-              </h3>
-              <p className="text-gray-700 mb-4">
-                Get our flyer with beautiful photos and information.
-              </p>
-              <a
-                href="/Brochure.pdf"
-                download
-                className="w-full bg-terracotta hover:bg-terracotta/90 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center text-center"
-              >
-                Download flyer
-              </a>
-            </div>
 
             <div className="mt-8 p-6 bg-white rounded-xl shadow-lg">
               <h3 className="font-playfair text-xl font-semibold text-terracotta mb-4">Why Choose Us?</h3>
@@ -215,6 +199,10 @@ export default function ContactPage() {
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-terracotta rounded-full"></div>
                   <span>Support until signing</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-terracotta rounded-full"></div>
+                  <span>We can recommend a reliable notary to ensure a smooth transaction</span>
                 </li>
               </ul>
             </div>
