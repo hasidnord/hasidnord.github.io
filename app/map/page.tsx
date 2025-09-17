@@ -233,7 +233,7 @@ export default function MapPage() {
             href="/contact"
             className="inline-flex items-center px-8 py-3 bg-terracotta text-white rounded-full hover:bg-terracotta/90 transition-colors font-medium"
           >
-            Arrange a Visit
+            Request a Visit
           </a>
         </div>
       </div>
