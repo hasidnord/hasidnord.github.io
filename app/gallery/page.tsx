@@ -177,8 +177,7 @@ export default function GalleryPage() {
           </div>
         </section>
 
-        {/* Remaining gallery sections below the line */}
-        <hr className="my-12 border-gray-300" />
+  {/* Remaining gallery sections below the line */}
         {galleryCategories.slice(1).map((category, categoryIndex) => (
           <section key={categoryIndex} className="mb-16">
             <h2 className="font-playfair text-2xl md:text-3xl font-bold text-terracotta mb-6 text-center">{category.title}</h2>
