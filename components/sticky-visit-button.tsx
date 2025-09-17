@@ -27,10 +27,9 @@ export default function StickyVisitButton() {
     >
       <Link
         href="/contact"
-        className="flex items-center space-x-2 bg-terracotta hover:bg-terracotta/90 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium"
+  className="flex items-center justify-center bg-terracotta hover:bg-terracotta/90 text-white px-4 sm:px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium min-w-[100px] sm:min-w-[180px] text-xs sm:text-base"
       >
-        <span className="hidden sm:inline">Request a Visit</span>
-        <span className="sm:hidden">Visit</span>
+        Request visit
       </Link>
     </div>
   )
