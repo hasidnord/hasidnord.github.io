@@ -134,7 +134,7 @@ export default function Navigation() {
                   className="block w-full bg-terracotta text-white text-center py-3 rounded-lg font-medium mt-4 hover:bg-terracotta/90 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Schedule a Visit
+                  Request a Visit
                 </Link>
               </div>
             </div>

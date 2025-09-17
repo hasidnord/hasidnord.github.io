@@ -142,7 +142,7 @@ export default function VideoPage() {
             href="/contact?virtual=true"
             className="inline-flex items-center px-8 py-3 bg-terracotta text-white rounded-full hover:bg-terracotta/90 transition-colors font-medium"
           >
-            Schedule Virtual Tour
+            Request Virtual Tour
           </a>
         </div>
       </div>
