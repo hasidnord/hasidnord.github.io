@@ -88,6 +88,27 @@ export default function VideoPage() {
           </p>
         </div>
 
+        {/* Request a Virtual Tour section moved up, icon removed, margin reduced */}
+        <div className="text-center mb-4 bg-white p-6 rounded-xl shadow-lg">
+          <h3 className="font-playfair text-2xl font-bold text-gray-800 mb-4">Request a Virtual Tour</h3>
+          <p className="text-lg text-gray-600 mb-4">
+            Can't visit in person? We can arrange a live virtual tour via video call at your convenience.
+          </p>
+          <button
+            type="button"
+            className="inline-flex items-center px-8 py-3 bg-terracotta text-white rounded-full hover:bg-terracotta/90 transition-colors font-medium"
+            onClick={() => {
+              const subject = encodeURIComponent("Contact Form Message")
+              const body = encodeURIComponent(
+                `Name: \nPhone: \nMessage: I would like to request a virtual tour.`
+              )
+              window.location.href = `mailto:info@netsafety.dk?subject=${subject}&body=${body}`
+            }}
+          >
+            Request Virtual Tour
+          </button>
+        </div>
+
         {videoCategories.map((category, categoryIndex) => (
           <section key={categoryIndex} className="mb-16">
             <h2 className="font-playfair text-3xl font-bold text-terracotta mb-8 text-center">{category.title}</h2>
@@ -131,20 +152,6 @@ export default function VideoPage() {
             </div>
           </section>
         ))}
-
-        <div className="text-center mt-16 bg-white p-8 rounded-xl shadow-lg">
-          <Camera className="w-12 h-12 text-terracotta mx-auto mb-4" />
-          <h3 className="font-playfair text-2xl font-bold text-gray-800 mb-4">Request a Virtual Tour</h3>
-          <p className="text-lg text-gray-600 mb-6">
-            Can't visit in person? We can arrange a live virtual tour via video call at your convenience.
-          </p>
-          <a
-            href="/contact?virtual=true"
-            className="inline-flex items-center px-8 py-3 bg-terracotta text-white rounded-full hover:bg-terracotta/90 transition-colors font-medium"
-          >
-            Request Virtual Tour
-          </a>
-        </div>
       </div>
       <PhotoViewer photos={viewerPhotos} initialIndex={viewerIndex} isOpen={viewerOpen} onClose={closeViewer} />
 

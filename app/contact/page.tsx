@@ -110,7 +110,7 @@ export default function ContactPage() {
           </div>
 
           {/* Contact Form */}
-          <div>
+          <div id="contact-form">
             <Card className="shadow-lg rounded-xl">
               <CardHeader>
                 <CardTitle className="font-playfair text-2xl text-terracotta">Send us a Message</CardTitle>

@@ -180,7 +180,7 @@ export default function HomePage() {
             <Button
               asChild
               size="lg"
-              className="bg-terracotta hover:bg-terracotta/90 text-white px-8 py-3 rounded-full"
+              className="bg-terracotta hover:bg-terracotta/90 text-white px-4 sm:px-8 py-3 rounded-full min-w-[120px] sm:min-w-[180px] text-xs sm:text-base"
             >
               <Link href="/contact">Request a Visit</Link>
             </Button>
