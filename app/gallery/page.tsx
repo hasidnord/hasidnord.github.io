@@ -80,6 +80,10 @@ export default function GalleryPage() {
   const [viewerPhotos, setViewerPhotos] = useState<Array<{ src: string; alt: string }>>([])
   const [viewerIndex, setViewerIndex] = useState(0)
 
+  // For single-photo viewer navigation
+  const [singlePhotoIndex, setSinglePhotoIndex] = useState(0)
+  const allPhotos = galleryCategories.flatMap(cat => cat.images)
+
   const openViewer = (photos: Array<{ src: string; alt: string }>, index: number) => {
     setViewerPhotos(photos)
     setViewerIndex(index)
@@ -93,13 +97,57 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen py-16 bg-cream">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-8">
+        <div className="text-center mb-4">
           <h1 className="font-playfair text-4xl md:text-5xl font-bold text-gray-800 mb-2">Photo Gallery</h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-2">
-            Explore every corner of this exceptional villa through our photo gallery, and then see <a href="/video" className="text-terracotta underline">the walkthrough videos</a>.
-            With a total of 323 square meters of living space, the property includes the main residence and three (holiday) apartments. Built on a hillside, the villa offers ground-level access to both the main home and the apartments—each with its own private entrance on opposite sides. The apartments can also be accessed internally from the main residence, making the layout flexible.
+              With a total of 323 square meters of living space, the property includes the main residence and three (holiday) apartments. Built on a hillside, the villa offers ground-level access to both the main home and the apartments—each with its own private entrance on opposite sides. The apartments can also be accessed internally from the main residence, making the layout flexible. 
+              <span className="block mt-2 text-base md:text-lg text-gray-700">
+                <span className="italic">View all photos in one go below or explore the complexity of the villa one section at a time by scrolling down.</span> And don´t miss <a href="/video" className="text-terracotta underline">the walkthrough videos</a>.
+              </span>
           </p>
         </div>
+
+        {/* Single-photo viewer without white background */}
+        <section className="mb-6">
+          <div className="flex flex-col items-center mb-4">
+            <div className="relative w-full max-w-md aspect-[4/3] mb-4 flex items-center justify-center">
+              {/* Left arrow */}
+              <button
+                className="absolute left-2 z-10 bg-terracotta text-white rounded-full p-2 shadow hover:bg-terracotta/90 text-2xl font-bold"
+                style={{ top: '50%', transform: 'translateY(-50%)' }}
+                onClick={() => setSinglePhotoIndex((prev) => (prev === 0 ? allPhotos.length - 1 : prev - 1))}
+                aria-label="Previous photo"
+              >
+                {'<'}
+              </button>
+              {/* Photo with fullscreen icon overlay */}
+              <div className="relative w-full h-full cursor-pointer" onClick={() => openViewer(allPhotos, singlePhotoIndex)}>
+                <Image
+                  src={allPhotos[singlePhotoIndex].src}
+                  alt={allPhotos[singlePhotoIndex].alt}
+                  fill
+                  className="object-cover rounded-lg shadow"
+                />
+                {/* Fullscreen icon */}
+                <span className="absolute bottom-3 right-3 bg-black/60 text-white rounded-full p-2 flex items-center justify-center" style={{ pointerEvents: 'none' }}>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-maximize"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M16 3h3a2 2 0 0 1 2 2v3"/><path d="M8 21H5a2 2 0 0 1-2-2v-3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/></svg>
+                </span>
+              </div>
+              {/* Right arrow */}
+              <button
+                className="absolute right-2 z-10 bg-terracotta text-white rounded-full p-2 shadow hover:bg-terracotta/90 text-2xl font-bold"
+                style={{ top: '50%', transform: 'translateY(-50%)' }}
+                onClick={() => setSinglePhotoIndex((prev) => (prev === allPhotos.length - 1 ? 0 : prev + 1))}
+                aria-label="Next photo"
+              >
+                {'>'}
+              </button>
+            </div>
+            <div className="text-center text-gray-700 mt-2">
+              {allPhotos[singlePhotoIndex].alt}
+            </div>
+          </div>
+        </section>
 
         {/* First section of 4 photos above the line */}
         <section className="mb-12">
