@@ -105,15 +105,17 @@ export default function PhotoViewer({ photos, initialIndex, isOpen, onClose }: P
         <>
           <button
             onClick={goToPrevious}
-            className="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-terracotta transition-colors p-3 rounded-full hover:bg-white/10 z-10"
+            className="absolute top-1/2 left-0 -translate-y-1/2 bg-terracotta text-white p-3 rounded-full shadow z-10 hover:bg-terracotta/90"
             title="Previous (←)"
+            style={{ marginLeft: '8px' }}
           >
             <ChevronLeft className="w-8 h-8" />
           </button>
           <button
             onClick={goToNext}
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-terracotta transition-colors p-3 rounded-full hover:bg-white/10 z-10"
+            className="absolute top-1/2 right-0 -translate-y-1/2 bg-terracotta text-white p-3 rounded-full shadow z-10 hover:bg-terracotta/90"
             title="Next (→)"
+            style={{ marginRight: '8px' }}
           >
             <ChevronRight className="w-8 h-8" />
           </button>
