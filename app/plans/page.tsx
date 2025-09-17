@@ -172,7 +172,7 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
                     {plan.pdf ? (
                       <a href={plan.pdf} download className="mt-2 flex items-center space-x-2 text-terracotta hover:text-terracotta/80 transition-colors">
                         <Download className="w-4 h-4" />
-                        <span className="text-sm">Download PDF</span>
+                        <span className="text-sm">Download PDF for this floor</span>
                       </a>
                     ) : (
                       <button className="mt-2 flex items-center space-x-2 text-terracotta hover:text-terracotta/80 transition-colors" disabled>
@@ -225,7 +225,7 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
         <div className="text-center mt-16 bg-cream p-8 rounded-xl">
           <h3 className="font-playfair text-2xl font-bold text-gray-800 mb-4">Complete Plan Package</h3>
           <p className="text-lg text-gray-600 mb-6">
-            Download all technical drawings in one PDF package.
+            Download all plan drawings in one PDF package.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -236,12 +236,17 @@ Large windows provide sweeping views of the surrounding landscape, making it a t
               <Download className="w-5 h-5 mr-2" />
               Download All Plans (PDF)
             </a>
-            <a
-              href="/contact?plans=true"
+            <button
+              type="button"
               className="inline-flex items-center px-8 py-3 border-2 border-terracotta text-terracotta rounded-full hover:bg-terracotta hover:text-white transition-colors font-medium"
+              onClick={() => {
+                const subject = encodeURIComponent("Request for Technical Specifications")
+                const body = encodeURIComponent("Message: I would like to request the technical specifications for the villa.\n\nPlease write your name here: ")
+                window.location.href = `mailto:info@netsafety.dk?subject=${subject}&body=${body}`
+              }}
             >
               Request Technical Specifications
-            </a>
+            </button>
           </div>
         </div>
       </div>
