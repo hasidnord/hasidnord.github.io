@@ -59,8 +59,9 @@ export default function HomePage() {
               <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
-          {/* Scroll Indicator (arrow only, at very bottom) */}
-          <div className="absolute left-1/2 bottom-2 -translate-x-1/2 animate-bounce z-20">
+          {/* Scroll Indicator (arrow and text, at very right) */}
+          <div className="absolute right-4 bottom-8 flex flex-col items-center animate-bounce z-20">
+            <span className="text-white text-sm mb-1 drop-shadow">Scroll down</span>
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-down">
               <polyline points="6 9 12 15 18 9" />
             </svg>
